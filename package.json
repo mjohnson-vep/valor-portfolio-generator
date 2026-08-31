@@ -1,0 +1,15 @@
+{
+  "name": "valor-portfolio-generator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Valor Equity Partners portfolio overview generator — shared web app + PPTX export",
+  "scripts": {
+    "postinstall": "npm install --prefix server && npm install --prefix client",
+    "start": "concurrently -n SERVER,CLIENT -c blue,green \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "dev": "npm run start",
+    "build": "npm run build --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
