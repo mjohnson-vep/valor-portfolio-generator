@@ -18,3 +18,10 @@ head_companies_scratch.json
 mismatches_scratch.json
 seed_i_companies_clean.json
 seed_i_companies_raw.json
+vos_portfolio_all_scratch.json
+vos_next_cursor_scratch.txt
+app_data_scratch.json
+sync_updates_scratch.json
+sync_ambiguous_scratch.json
+sync_notfound_scratch.json
+committed_seed_check.json
