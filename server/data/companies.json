@@ -10,166 +10,1286 @@
       "label": "Growth – Valor & VSV",
       "pptLabel": "GROWTH COMPANIES – VALOR & VSV",
       "companies": [
-        { "id": "growth-valor-vsv-001-aalo", "name": "AALO", "url": "aalo.com", "desc": "Advanced nuclear fission reactor developer providing carbon-free, reliable power.", "included": true, "order": 0 },
-        { "id": "growth-valor-vsv-002-abridge", "name": "ABRIDGE", "url": "abridge.com", "desc": "AI platform purpose-built for healthcare to surface clinical insights from patient-provider conversations.", "included": false, "order": 1 },
-        { "id": "growth-valor-vsv-003-addepar", "name": "ADDEPAR", "url": "addepar.com", "desc": "Financial reporting and analytics platform for wealth managers and institutions managing complex portfolios.", "included": true, "order": 2 },
-        { "id": "growth-valor-vsv-004-aescape", "name": "AESCAPE", "url": "aescape.com", "desc": "AI-powered fully robotic massage tables delivering a superhuman alternative to human massage therapy.", "included": true, "order": 3 },
-        { "id": "growth-valor-vsv-005-aexlab", "name": "AEXLAB", "url": "aexlab.com", "desc": "Immersive technology platform enabling presence and connection in virtual worlds for gaming, training, and enterprise.", "included": false, "order": 4 },
-        { "id": "growth-valor-vsv-006-agentsync", "name": "AGENTSYNC", "url": "agentsync.io", "desc": "Modern producer management and compliance platform built for the insurance industry.", "included": true, "order": 5 },
-        { "id": "growth-valor-vsv-007-agrippa-industries", "name": "AGRIPPA INDUSTRIES", "url": "agrippaindustries.com", "desc": "Autonomous maritime logistics provider offering lower-cost, more sustainable freight solutions.", "included": true, "order": 6 },
-        { "id": "growth-valor-vsv-008-amboss-technologies", "name": "AMBOSS TECHNOLOGIES", "url": "amboss.space", "desc": "Data analytics and liquidity marketplace platform serving enterprise clients in digital asset markets.", "included": false, "order": 7 },
-        { "id": "growth-valor-vsv-009-amp-sortation", "name": "AMP SORTATION", "url": "ampsortation.com", "desc": "Low-cost, high-throughput robotics and computer vision technology for waste and recyclable material sorting.", "included": false, "order": 8 },
-        { "id": "growth-valor-vsv-010-andrenam", "name": "ANDRENAM", "url": "andrenam.com", "desc": "Vertically integrated maritime sensing platform combining low-cost hardware with autonomous vehicle swarms.", "included": true, "order": 9 },
-        { "id": "growth-valor-vsv-011-anduril-industries", "name": "ANDURIL INDUSTRIES", "url": "anduril.com", "desc": "Defense technology company leveraging advanced hardware and software to build autonomous systems for national security.", "included": true, "order": 10 },
-        { "id": "growth-valor-vsv-012-arc-boats", "name": "ARC BOATS.", "url": "arcboats.com", "desc": "Electric boat manufacturer electrifying the marine industry, starting with recreational boating.", "included": false, "order": 11 },
-        { "id": "growth-valor-vsv-013-armada-ai", "name": "ARMADA AI", "url": "armada.ai", "desc": "Full-stack edge computing platform delivering connectivity, compute, and AI in remote and contested environments.", "included": false, "order": 12 },
-        { "id": "growth-valor-vsv-014-arovy", "name": "AROVY", "url": "arovy.com", "desc": "Change intelligence platform for operations, revenue, and systems teams managing Salesforce ecosystems.", "included": false, "order": 13 },
-        { "id": "growth-valor-vsv-015-athena", "name": "ATHENA", "url": "athena.com", "desc": "", "included": false, "order": 14 },
-        { "id": "growth-valor-vsv-016-atmospheretv", "name": "ATMOSPHERETV", "url": "atmosphere.tv", "desc": "Streaming TV and advertising platform purpose-built for commercial venues featuring audio-optional content.", "included": true, "order": 15 },
-        { "id": "growth-valor-vsv-017-atomic-machines", "name": "ATOMIC MACHINES", "url": "atomicmachines.com", "desc": "Micro-manufacturing technology delivering next-generation high-performance components at scale.", "included": true, "order": 16 },
-        { "id": "growth-valor-vsv-018-base-power", "name": "BASE POWER", "url": "basepowercompany.com", "desc": "Residential and commercial energy solution provider building distributed energy infrastructure across the US.", "included": true, "order": 17 },
-        { "id": "growth-valor-vsv-019-basic-space", "name": "BASIC.SPACE", "url": "basic.space", "desc": "Social commerce platform with a curated marketplace and in-person experiences built around community.", "included": false, "order": 18 },
-        { "id": "growth-valor-vsv-020-bedrock", "name": "BEDROCK", "url": "bedrockocean.com", "desc": "Seafloor mapping and ocean monitoring company advancing critical ocean infrastructure and intelligence.", "included": false, "order": 19 },
-        { "id": "growth-valor-vsv-021-biobot-analytics", "name": "BIOBOT ANALYTICS", "url": "biobot.io", "desc": "Wastewater intelligence platform delivering public health insights to governments and enterprises.", "included": true, "order": 20 },
-        { "id": "growth-valor-vsv-022-bitgo-holdings", "name": "BITGO HOLDINGS", "url": "bitgo.com", "desc": "Institutional digital asset security, compliance, and custody infrastructure provider.", "included": true, "order": 21 },
-        { "id": "growth-valor-vsv-023-bitwave", "name": "BITWAVE", "url": "bitwave.io", "desc": "Enterprise crypto accounting and tax software for end-to-end financial management of digital assets.", "included": false, "order": 22 },
-        { "id": "growth-valor-vsv-024-bluevoyant", "name": "BLUEVOYANT", "url": "bluevoyant.com", "desc": "", "included": false, "order": 23 },
-        { "id": "growth-valor-vsv-025-brainsway", "name": "BRAINSWAY", "url": "brainsway.com", "desc": "Non-invasive neurostimulation technology company treating mental health disorders including depression and OCD.", "included": true, "order": 24 },
-        { "id": "growth-valor-vsv-026-cameo", "name": "CAMEO", "url": "cameo.com", "desc": "Marketplace connecting fans with celebrities for personalized video messages and experiences.", "included": false, "order": 25 },
-        { "id": "growth-valor-vsv-027-carbyne", "name": "CARBYNE", "url": "carbyne.com", "desc": "Real-time emergency communication platform delivering next-generation 911 infrastructure for public safety agencies.", "included": false, "order": 26 },
-        { "id": "growth-valor-vsv-028-castle-creek-biosciences", "name": "CASTLE CREEK BIOSCIENCES", "url": "castlecreekbio.com", "desc": "Clinical-stage cell and gene therapy company developing disease-modifying treatments for genetic skin disorders.", "included": true, "order": 27 },
-        { "id": "growth-valor-vsv-029-cerby", "name": "CERBY", "url": "cerby.com", "desc": "Agentic AI security platform managing identities and access across disconnected enterprise applications.", "included": true, "order": 28 },
-        { "id": "growth-valor-vsv-030-chaos", "name": "CHAOS", "url": "chaosinc.com", "desc": "Next-generation radar systems purpose-built for defense, government, and critical infrastructure applications.", "included": true, "order": 29 },
-        { "id": "growth-valor-vsv-031-charm-industrial", "name": "CHARM INDUSTRIAL", "url": "charmindustrial.com", "desc": "", "included": false, "order": 30 },
-        { "id": "growth-valor-vsv-032-chowly", "name": "CHOWLY", "url": "chowly.com", "desc": "’s all in one full-service digital ordering platform for restaurants meets customers wherever they are online and.", "included": false, "order": 31 },
-        { "id": "growth-valor-vsv-033-circ-biosciences", "name": "CIRC BIOSCIENCES", "url": "circbiosciences.com", "desc": "Regenerative medicine company targeting the hardest-to-treat degenerative diseases characterized by significant cell death", "included": true, "order": 32 },
-        { "id": "growth-valor-vsv-034-cloud9", "name": "CLOUD9", "url": "cloud9.gg", "desc": "One of the premier organizations in the esports industry, with a focus on developing top-tier athletes, engaging broadly with.", "included": true, "order": 33 },
-        { "id": "growth-valor-vsv-035-coalition", "name": "COALITION", "url": "coalitioninc.com", "desc": "Disruptive cybersecurity managing general agent that performs underwriting, claims, and incident response services.", "included": true, "order": 34 },
-        { "id": "growth-valor-vsv-036-coincover", "name": "COINCOVER", "url": "coincover.com", "desc": "Provides security and recovery solutions for digital assets.", "included": false, "order": 35 },
-        { "id": "growth-valor-vsv-037-compscience", "name": "COMPSCIENCE", "url": "compscience.com", "desc": "Provider of AI & computer vision-enabled software that automates workplace safety inspections and powers workers' compensation.", "included": true, "order": 36 },
-        { "id": "growth-valor-vsv-038-counterpart", "name": "COUNTERPART", "url": "yourcounterpart.com", "desc": "Technology-enabled managing general agent offering insurance for Directors & Officers, Employment Practices, and Fiduciary.", "included": true, "order": 37 },
-        { "id": "growth-valor-vsv-039-cover", "name": "COVER", "url": "buildcover.com", "desc": "Designs, manufactures, and installs custom homes and backyard studios.", "included": false, "order": 38 },
-        { "id": "growth-valor-vsv-040-cred-ai", "name": "CRED.AI", "url": "cred.ai", "desc": "Financial wellness platform providing underserved populations with the ability to raise credit scores", "included": false, "order": 39 },
-        { "id": "growth-valor-vsv-041-crusoe", "name": "CRUSOE", "url": "crusoe.ai", "desc": "Is a leading vertically-integrated ai infrastructure provider focused on sustainably powered data centers and full-stack.", "included": true, "order": 40 },
-        { "id": "growth-valor-vsv-042-cumulus-coffee", "name": "CUMULUS COFFEE", "url": "cumuluscoffee.com", "desc": "Cumulus is designing and selling an at-home coffee system that crafts high quality cold brew, nitro cold brew, and cold espresso.", "included": false, "order": 41 },
-        { "id": "growth-valor-vsv-043-dataminr", "name": "DATAMINR", "url": "dataminr.com", "desc": "Leading real-time information discovery platform that uses proprietary artificial intelligence and machine learning tools to.", "included": true, "order": 42 },
-        { "id": "growth-valor-vsv-044-david-protein", "name": "DAVID PROTEIN", "url": "davidprotein.com", "desc": "CPG food technology company with an industry-leading macronutrient protein bar.", "included": true, "order": 43 },
-        { "id": "growth-valor-vsv-045-defense-unicorns", "name": "DEFENSE UNICORNS", "url": "defenseunicorns.com", "desc": "Is revolutionizing how the u.s.", "included": false, "order": 44 },
-        { "id": "growth-valor-vsv-046-disa", "name": "DISA", "url": "disatech.com", "desc": "Developer of a materials liberation technology designed to optimize the efficacy of mineral processing for mining and remediation", "included": true, "order": 45 },
-        { "id": "growth-valor-vsv-047-eight-sleep", "name": "EIGHT SLEEP", "url": "eightsleep.com", "desc": "Sleep tech company leveraging dynamic thermoregulation and sleep stat tracking to help users enhance sleep performance and.", "included": true, "order": 46 },
-        { "id": "growth-valor-vsv-048-electra", "name": "ELECTRA", "url": "electra.earth", "desc": "", "included": false, "order": 47 },
-        { "id": "growth-valor-vsv-049-electric", "name": "ELECTRIC", "url": "electric.ai", "desc": "Eletric provides an all-in-one IT management platform for small to mid-sized businesses.", "included": false, "order": 48 },
-        { "id": "growth-valor-vsv-050-emerja", "name": "EMERJA", "url": "emerja.io", "desc": "Medical technology company leveraging thermoregulation data to identify homeostasis and preemptively detect changes in health", "included": false, "order": 49 },
-        { "id": "growth-valor-vsv-051-endless-west", "name": "ENDLESS WEST", "url": "endlesswest.com", "desc": "Is a beverage technology company that uses molecular science to create spirits and wines", "included": false, "order": 50 },
-        { "id": "growth-valor-vsv-052-everyrealm", "name": "EVERYREALM", "url": "everyrealm.com", "desc": "Is a pioneer in virtual worlds, working across platforms, chains, and protocols to develop experiences that allow.", "included": false, "order": 51 },
-        { "id": "growth-valor-vsv-053-evozyne", "name": "EVOZYNE", "url": "evozyne.com", "desc": "Data-driven molecular engineering platform leveraging AI to design novel proteins for industrial and therapeutic applications.", "included": true, "order": 52 },
-        { "id": "growth-valor-vsv-054-extropic-ai", "name": "EXTROPIC AI", "url": "extropic.ai", "desc": "Full-stack solution leveraging principles of thermodynamic computing and physics-based AI", "included": true, "order": 53 },
-        { "id": "growth-valor-vsv-055-fooda", "name": "FOODA", "url": "fooda.com", "desc": "Disrupting the corporate lunch market by leveraging untapped restaurant capacity to conveniently provide great food to employees.", "included": true, "order": 54 },
-        { "id": "growth-valor-vsv-056-fortell", "name": "FORTELL", "url": "fortell.com", "desc": "Next-gen hearing tech platform building a disruptive, vertically-integrated hearing aid that leverages artificial intelligence on.", "included": true, "order": 55 },
-        { "id": "growth-valor-vsv-057-freeform", "name": "FREEFORM", "url": "freeform.co", "desc": "Combines AI, hardware-accelerated computing, and an autonomous factory architecture to deliver high-quality metal parts faster,.", "included": true, "order": 56 },
-        { "id": "growth-valor-vsv-058-galoy", "name": "GALOY", "url": "galoy.io", "desc": "Developer of Bitcoin & Lightning Network (“BTC/LN”) banking infrastructure on a free & open-source software (“FOSS”) standard.", "included": false, "order": 57 },
-        { "id": "growth-valor-vsv-059-general-intuition", "name": "GENERAL INTUITION", "url": "generalintuition.com", "desc": "", "included": false, "order": 58 },
-        { "id": "growth-valor-vsv-060-general-matter", "name": "GENERAL MATTER", "url": "generalmatter.com", "desc": "Is developing vertically integrated, cost-competitive uranium enrichment services.", "included": true, "order": 59 },
-        { "id": "growth-valor-vsv-061-genvid-technologies", "name": "GENVID TECHNOLOGIES", "url": "genvid.com", "desc": "Groundbreaking software developer bringing real-time, mass audience interactivity to video games and streaming content.", "included": true, "order": 60 },
-        { "id": "growth-valor-vsv-062-glyphic-biotechnologies", "name": "GLYPHIC BIOTECHNOLOGIES", "url": "glyphic.bio", "desc": "Is a proteomic sequencing company developing a scalable platform with single protein resolution to.", "included": false, "order": 61 },
-        { "id": "growth-valor-vsv-063-gopuff", "name": "GOPUFF", "url": "gopuff.com", "desc": "On-demand virtual convenience store delivering everyday essentials in under 30 minutes.", "included": true, "order": 62 },
-        { "id": "growth-valor-vsv-064-gromacorp", "name": "GROMACORP", "url": "groma.com", "desc": "Boston-based real estate investment, development, and management platform that uses software to source/underwrite multifamily.", "included": true, "order": 63 },
-        { "id": "growth-valor-vsv-065-groq", "name": "GROQ", "url": "groq.com", "desc": "Offers fast, affordable, and energy efficient ai inference powered by its lpu chip; groq acquired definitive intelligence, a.", "included": false, "order": 64 },
-        { "id": "growth-valor-vsv-066-hackerone", "name": "HACKERONE", "url": "hackerone.com", "desc": "Leading two-sided marketplace that connects “white hat” hackers with organizations of all sizes to find system vulnerabilities.", "included": true, "order": 65 },
-        { "id": "growth-valor-vsv-067-hadrian", "name": "HADRIAN", "url": "hadrian.co", "desc": "Software-enabled precision manufacturing company building autonomous factories for the US defense supply chain.", "included": true, "order": 66 },
-        { "id": "growth-valor-vsv-068-hadron", "name": "HADRON", "url": "hadron.com", "desc": "AI-powered platform that seeks to disrupt institutional investing in private markets by automating complex workflows starting.", "included": true, "order": 67 },
-        { "id": "growth-valor-vsv-069-hidden-level", "name": "HIDDEN LEVEL", "url": "hiddenlevel.com", "desc": "Is an advanced radio frequency (rf) sensing company that is “building the highways in the skies” with a new.", "included": false, "order": 68 },
-        { "id": "growth-valor-vsv-070-highlight", "name": "HIGHLIGHT", "url": "highlightai.com", "desc": "Contextual Search and Prompting Engine", "included": true, "order": 69 },
-        { "id": "growth-valor-vsv-071-hoseki", "name": "HOSEKI", "url": "hoseki.app", "desc": "Is a digital asset verification platform offering api-based proof-of-ownership solutions to financial services enterprises.", "included": false, "order": 70 },
-        { "id": "growth-valor-vsv-072-impulse-space", "name": "IMPULSE SPACE", "url": "impulsespace.com", "desc": "Manufacturer of aviation and aerospace components designed for economical and last-mile space payload delivery.", "included": true, "order": 71 },
-        { "id": "growth-valor-vsv-073-jkbx", "name": "JKBX", "url": "jkbx.com", "desc": "A platform that democratizes the ownership of song royalties at scale via non-fungible tokens", "included": false, "order": 72 },
-        { "id": "growth-valor-vsv-074-k-health", "name": "K HEALTH", "url": "khealth.com", "desc": "AI-powered virtual primary care platform that provides users with data-driven, probabilistic diagnoses via an interactive mobile.", "included": true, "order": 73 },
-        { "id": "growth-valor-vsv-075-k2-space", "name": "K2 SPACE", "url": "k2space.com", "desc": "Is a satellite bus manufacturer developing large platforms that seek to be the foundation for new and expanding.", "included": true, "order": 74 },
-        { "id": "growth-valor-vsv-076-kettle", "name": "KETTLE", "url": "ourkettle.com", "desc": "Is an insurtech that uses ai and machine learning to improve reinsurance for catastrophic events such as wildfires.", "included": false, "order": 75 },
-        { "id": "growth-valor-vsv-077-kigo", "name": "KIGO", "url": "kigo.io", "desc": "Digital asset platform that powers loyalty and engagement technology for enterprise brands", "included": true, "order": 76 },
-        { "id": "growth-valor-vsv-078-launch-fund", "name": "LAUNCH FUND", "url": "launchaccelerator.co", "desc": "", "included": false, "order": 77 },
-        { "id": "growth-valor-vsv-079-legacy-laboratory-services-healthcare", "name": "LEGACY (LABORATORY SERVICES (HEALTHCARE))", "url": "givelegacy.com", "desc": "Creating a platform to affordably test and freeze sperm from the comfort of home.", "included": false, "order": 78 },
-        { "id": "growth-valor-vsv-080-lightbits-labs", "name": "LIGHTBITS LABS", "url": "lightbitslabs.com", "desc": "Is developing high-performance, software-defined cloud storage solutions for enterprise data centers.", "included": false, "order": 79 },
-        { "id": "growth-valor-vsv-081-lightning-labs", "name": "LIGHTNING LABS", "url": "lightning.engineering", "desc": "Develops software that powers the Lightning Network, enabling faster, cheaper, and more scalable Bitcoin transactions.", "included": true, "order": 80 },
-        { "id": "growth-valor-vsv-082-lilac", "name": "LILAC", "url": "lilacsolutions.com", "desc": "", "included": false, "order": 81 },
-        { "id": "growth-valor-vsv-083-little-spoon", "name": "LITTLE SPOON", "url": "littlespoon.com", "desc": "Direct-to-consumer food and nutrition company disrupting the childhood health and wellness market.", "included": true, "order": 82 },
-        { "id": "growth-valor-vsv-084-loyal", "name": "LOYAL", "url": "loyal.com", "desc": "First-to-market life extension drug for dogs targeting aging pathways to extend canine healthspan.", "included": true, "order": 83 },
-        { "id": "growth-valor-vsv-085-luminary", "name": "LUMINARY", "url": "luminarypodcasts.com", "desc": "Subscription podcast network with an award-winning lineup of original shows.", "included": false, "order": 84 },
-        { "id": "growth-valor-vsv-086-lyte-tech", "name": "LYTE TECH", "url": "lyte-tech.com", "desc": "Lyte is developing a disruptive FMCW LiDAR technology to deliver an advanced optical sensing platform for the next generation of.", "included": true, "order": 85 },
-        { "id": "growth-valor-vsv-087-magicschool", "name": "MAGICSCHOOL", "url": "magicschool.ai", "desc": "Education technology company offering a range of AI-powered tools and resources to assist educators and students in K-12 schools.", "included": true, "order": 86 },
-        { "id": "growth-valor-vsv-088-manduka", "name": "MANDUKA", "url": "manduka.com", "desc": "Designs and sells premium yoga products, including mats, towels, and accessories, to instructors and dedicated enthusiasts.", "included": true, "order": 87 },
-        { "id": "growth-valor-vsv-089-mare-liberum", "name": "MARE LIBERUM", "url": "mareliberum.com", "desc": "Is a team of maritime operators, investors, and national security experts who are charting the course for a.", "included": false, "order": 88 },
-        { "id": "growth-valor-vsv-090-mega", "name": "MEGA", "url": "gomega.ai", "desc": "AI-powered SMB-focused digital marketing agency business", "included": true, "order": 89 },
-        { "id": "growth-valor-vsv-091-meter", "name": "METER", "url": "meter.com", "desc": "(or the “company”) offers secure, vertically-integrated enterprise networks built from the ground up.", "included": true, "order": 90 },
-        { "id": "growth-valor-vsv-092-mill-industries", "name": "MILL INDUSTRIES", "url": "mill.com", "desc": "Developer of sustainable trash bins designed to convert waste into compost.", "included": false, "order": 91 },
-        { "id": "growth-valor-vsv-093-misfits-market", "name": "MISFITS MARKET", "url": "misfitsmarket.com", "desc": "Direct-to-consumer grocery subscription delivering affordable, high-quality food from surplus supply.", "included": true, "order": 92 },
-        { "id": "growth-valor-vsv-094-mode-analytics-thoughtspot", "name": "MODE ANALYTICS (THOUGHTSPOT)", "url": "thoughtspot.com", "desc": "ThoughtSpot (acquired Mode in 2023) is an enterprise-focused data analytics platform that allows users to analyze data, generate.", "included": true, "order": 93 },
-        { "id": "growth-valor-vsv-095-modretro", "name": "MODRETRO", "url": "modretro.com", "desc": "(or the “company”) is building a diversified, vertically integrated consumer electronics platform bringing a premium,.", "included": true, "order": 94 },
-        { "id": "growth-valor-vsv-096-mozart-data", "name": "MOZART DATA", "url": "mozartdata.com", "desc": "Is an all-in-one modern data platform for centralizing, organizing, and analyzing data.", "included": false, "order": 95 },
-        { "id": "growth-valor-vsv-097-mycoworks", "name": "MYCOWORKS", "url": "mycoworks.com", "desc": "Biotechnology company founded by artists with the mission to create a platform for the highest quality materials using Fine.", "included": false, "order": 96 },
-        { "id": "growth-valor-vsv-098-mythic", "name": "MYTHIC", "url": "mythic.ai", "desc": "Developing artificial intelligence optimized semiconductor chips that use analog computation to deliver superior performance.", "included": false, "order": 97 },
-        { "id": "growth-valor-vsv-099-nabr", "name": "NABR", "url": "nabr.com", "desc": "Digital housing development platform.", "included": false, "order": 98 },
-        { "id": "growth-valor-vsv-100-neros", "name": "NEROS", "url": "neros.tech", "desc": "Manufacturer of unmanned aerial systems for military and allied forces requiring persistent intelligence and reconnaissance.", "included": true, "order": 99 },
-        { "id": "growth-valor-vsv-101-neuralink", "name": "NEURALINK", "url": "neuralink.com", "desc": "Developing brain-machine interface technology that aims to treat serious brain diseases and injuries and eventually enhance human.", "included": true, "order": 100 },
-        { "id": "growth-valor-vsv-102-nexar", "name": "NEXAR", "url": "getnexar.com", "desc": "Powered dash cams enable new vision-based applications for better driving.", "included": false, "order": 101 },
-        { "id": "growth-valor-vsv-103-nile", "name": "NILE", "url": "nilesecure.com", "desc": "Is a networking-as-a-service provider that is disrupting the legacy, hardware-focused enterprise network market with a.", "included": false, "order": 102 },
-        { "id": "growth-valor-vsv-104-nirvana", "name": "NIRVANA", "url": "nirvanatech.com", "desc": "Technology-enabled managing general agent disrupting the commercial trucking insurance space through AI-powered underwriting.", "included": true, "order": 103 },
-        { "id": "growth-valor-vsv-105-ocient", "name": "OCIENT", "url": "ocient.com", "desc": "To deliver next-generation data analytics, completely reimagining data warehouse design to deliver real-time analysis of complex,.", "included": false, "order": 104 },
-        { "id": "growth-valor-vsv-106-opal-camera", "name": "OPAL CAMERA", "url": "op.al", "desc": "Is a consumer hardware company developing a physical interface for artificial intelligence.", "included": false, "order": 105 },
-        { "id": "growth-valor-vsv-107-openfx", "name": "OPENFX", "url": "openfx.com", "desc": "Is developing foundational foreign exchange (“fx”) infrastructure for cross-border payments.", "included": true, "order": 106 },
-        { "id": "growth-valor-vsv-108-osaro", "name": "OSARO", "url": "osaro.com", "desc": "Specializes in ai-driven robotic automation for industrial applications, particularly in logistics and e-commerce.", "included": false, "order": 107 },
-        { "id": "growth-valor-vsv-109-pallet", "name": "PALLET", "url": "pallet.xyz", "desc": "Was focused on building modern hiring infrastructure.", "included": false, "order": 108 },
-        { "id": "growth-valor-vsv-110-pangaia-materials-science", "name": "PANGAIA MATERIALS SCIENCE", "url": "pangaia.com", "desc": "Sustainability-focused, direct-to-consumer materials science company bringing breakthrough and patented materials innovations.", "included": false, "order": 109 },
-        { "id": "growth-valor-vsv-111-pano", "name": "PANO", "url": "pano.ai", "desc": "Is a full stack natural disaster prevention and response platform that unifies hardware, proprietary ai, software, and.", "included": false, "order": 110 },
-        { "id": "growth-valor-vsv-112-pattern-biosciences", "name": "PATTERN BIOSCIENCES", "url": "patternbio.com", "desc": "Is building a “sense, compute, cure” biocomputing platform to enable the delivery of therapeutics with more.", "included": true, "order": 111 },
-        { "id": "growth-valor-vsv-113-pearl", "name": "PEARL", "url": "hellopearl.com", "desc": "Developing AI-powered dental solutions to improve the efficiency, consistency, and accuracy of patient exams & practice operations", "included": false, "order": 112 },
-        { "id": "growth-valor-vsv-114-percipient-ai", "name": "PERCIPIENT.AI", "url": "percipient.ai", "desc": "Specializes in artificial intelligence, machine learning, and computer vision for national security and.", "included": false, "order": 113 },
-        { "id": "growth-valor-vsv-115-pivot", "name": "PIVOT", "url": "pivot.co", "desc": "Modern tobacco cessation solution that empowers people to cultivate enduring behavioral changes", "included": false, "order": 114 },
-        { "id": "growth-valor-vsv-116-polymarket", "name": "POLYMARKET", "url": "polymarket.com", "desc": "One of the world’s largest prediction market platforms, operating as a decentralized, blockchain-powered system that enables.", "included": true, "order": 115 },
-        { "id": "growth-valor-vsv-117-portless", "name": "PORTLESS", "url": "portless.com", "desc": "Logistics technology business that enables international eCommerce fulfilment", "included": false, "order": 116 },
-        { "id": "growth-valor-vsv-118-pragma", "name": "PRAGMA", "url": "pragma.gg", "desc": "Is a developer of scalable backend infrastructure which will power live services gaming", "included": false, "order": 117 },
-        { "id": "growth-valor-vsv-119-prefect", "name": "PREFECT", "url": "prefect.io", "desc": "Provider of workflow automation management software that allows enterprises to orchestrate complex data processes and minimize.", "included": false, "order": 118 },
-        { "id": "growth-valor-vsv-120-proteantecs", "name": "PROTEANTECS", "url": "proteantecs.com", "desc": "Provides deep data analytics for monitoring of advanced electronics.", "included": false, "order": 119 },
-        { "id": "growth-valor-vsv-121-proto-town", "name": "PROTO TOWN", "url": "proto.town", "desc": "Proto-Town (or the “Company”) is a vertically integrated real estate development and venture platform creating a purpose-built.", "included": true, "order": 120 },
-        { "id": "growth-valor-vsv-122-q-m-technologies", "name": "Q.M TECHNOLOGIES", "url": "quantum-machines.co", "desc": "Quantum Machines is developing platform-agnostic cloud infrastructure that is critical for accelerating the advent of quantum.", "included": true, "order": 121 },
-        { "id": "growth-valor-vsv-123-quantifind", "name": "QUANTIFIND", "url": "quantifind.com", "desc": "Is a software company that automates and streamlines kyc/aml screening and investigations by leveraging artificial.", "included": false, "order": 122 },
-        { "id": "growth-valor-vsv-124-quera-computing", "name": "QUERA COMPUTING", "url": "quera.com", "desc": "QuEra is developing quantum technology based on neutral atom qubits.", "included": true, "order": 123 },
-        { "id": "growth-valor-vsv-125-redwood-materials", "name": "REDWOOD MATERIALS", "url": "redwoodmaterials.com", "desc": "Recycling technology company focused on e-waste with the mission to build a circular supply chain to power a sustainable world.", "included": true, "order": 124 },
-        { "id": "growth-valor-vsv-126-regent-craft", "name": "REGENT CRAFT", "url": "regentcraft.com", "desc": "Operator of a maritime mobility company intended to offer fast, safe, and low-cost coastal transportation to customers.", "included": true, "order": 125 },
-        { "id": "growth-valor-vsv-127-remora", "name": "REMORA", "url": "remoracarbon.com", "desc": "Developing a highly disruptive first-of-its-kind mobile carbon capture system that seeks to greatly reduce greenhouse gas.", "included": true, "order": 126 },
-        { "id": "growth-valor-vsv-128-republic", "name": "REPUBLIC", "url": "republic.com", "desc": "Full-stack private investing platform & regulated infrastructure through which highly-vetted startups, real estate, video games,.", "included": true, "order": 127 },
-        { "id": "growth-valor-vsv-129-river", "name": "RIVER.", "url": "river.com", "desc": "River offers a platform for buying, selling, and storing Bitcoin, with an emphasis on security and user control.", "included": false, "order": 128 },
-        { "id": "growth-valor-vsv-130-roam-robotics", "name": "ROAM ROBOTICS", "url": "roamrobotics.com", "desc": "Is developing lightweight, low cost, wearable robotic devices to expand human mobility.", "included": false, "order": 129 },
-        { "id": "growth-valor-vsv-131-salted", "name": "SALTED", "url": "hellosalted.com", "desc": "Is a company that helps restaurant brands grow without the overhead of traditional restaurants.", "included": false, "order": 130 },
-        { "id": "growth-valor-vsv-132-saronic", "name": "SARONIC", "url": "saronic.com", "desc": "Unmanned surface vehicle manufacturer enhancing maritime domain awareness and security for naval operations.", "included": true, "order": 131 },
-        { "id": "growth-valor-vsv-133-sightful", "name": "SIGHTFUL", "url": "sightful.com", "desc": "Is bringing ar spatial computing to businesses with a spatial workspace designed for productivity.", "included": false, "order": 132 },
-        { "id": "growth-valor-vsv-134-siterx", "name": "SITERX", "url": "siterx.com", "desc": "Clinical trial recruitment platform that empowers physicians to make high-trust patient referrals—leading to faster enrollment.", "included": false, "order": 133 },
-        { "id": "growth-valor-vsv-135-slingshot-aerospace", "name": "SLINGSHOT AEROSPACE", "url": "slingshot.space", "desc": "Building advanced space domain awareness, space traffic coordination, and space security solutions to protect and preserve space.", "included": false, "order": 134 },
-        { "id": "growth-valor-vsv-136-solink", "name": "SOLINK", "url": "solink.com", "desc": "Software-as-a-service company that is disrupting the video monitoring market with a user-friendly platform that provides loss.", "included": true, "order": 135 },
-        { "id": "growth-valor-vsv-137-solugen", "name": "SOLUGEN", "url": "solugen.com", "desc": "", "included": false, "order": 136 },
-        { "id": "growth-valor-vsv-138-songfinch", "name": "SONGFINCH", "url": "songfinch.com", "desc": "Is a custom song marketplace platform that enables consumers to create one-of-a-kind songs written by professional.", "included": false, "order": 137 },
-        { "id": "growth-valor-vsv-139-spacex", "name": "SPACEX", "url": "spacex.com", "desc": "Designs, manufactures, launches, and operates advanced rockets, spacecraft, and satellites that are increasing the reliability.", "included": true, "order": 138 },
-        { "id": "growth-valor-vsv-140-spot-tango", "name": "SPOT & TANGO", "url": "spotandtango.com", "desc": "Direct-to-consumer health and wellness brand disrupting the premium pet food market with fresh, human-grade dog food.", "included": true, "order": 139 },
-        { "id": "growth-valor-vsv-141-strider-technologies", "name": "STRIDER TECHNOLOGIES", "url": "striderintel.com", "desc": "Technology platform that allows organizations to protect themselves from IP theft and supply chain vulnerabilities at the.", "included": true, "order": 140 },
-        { "id": "growth-valor-vsv-142-synaptic", "name": "SYNAPTIC", "url": "synaptic.com", "desc": "Building the leading alternative data and insights platform for the investment industry.", "included": true, "order": 141 },
-        { "id": "growth-valor-vsv-143-the-boring-company", "name": "THE BORING COMPANY", "url": "boringcompany.com", "desc": "Developing tunnel design and construction technology to disrupt the transportation infrastructure space based on cost and product.", "included": true, "order": 142 },
-        { "id": "growth-valor-vsv-144-the-fresh-factory", "name": "THE FRESH FACTORY", "url": "thefreshfactory.co", "desc": "The Company develops, formulates, manufactures, distributes, and sells products made from fresh produce and recognizable.", "included": false, "order": 143 },
-        { "id": "growth-valor-vsv-145-the-kitchen-american-bistro", "name": "THE KITCHEN AMERICAN BISTRO", "url": "thekitchen.com", "desc": "", "included": false, "order": 144 },
-        { "id": "growth-valor-vsv-146-trusted-health", "name": "TRUSTED HEALTH", "url": "trustedhealth.com", "desc": "Platform that connects healthcare professionals, including nurses and allied health pros, to over 20,000 personalized travel job.", "included": false, "order": 145 },
-        { "id": "growth-valor-vsv-147-trustworthy", "name": "TRUSTWORTHY", "url": "trustworthy.com", "desc": "Operating system that helps families securely manage critical information in one place", "included": false, "order": 146 },
-        { "id": "growth-valor-vsv-148-unchained", "name": "UNCHAINED", "url": "unchained.com", "desc": "Developing blockchain infrastructure that enables individually segregated hypothecation of digital assets, unleashing a new.", "included": true, "order": 147 },
-        { "id": "growth-valor-vsv-149-varda-space-industries", "name": "VARDA SPACE INDUSTRIES", "url": "varda.com", "desc": "Varda is building spacecraft and manufacturing payloads to produce and hypersonically test specialized high-demand materials,.", "included": false, "order": 148 },
-        { "id": "growth-valor-vsv-150-velosimo", "name": "VELOSIMO", "url": "velosimo.com", "desc": "Provides a no-code/low-code integration platform as a service (ipaas) for government technology systems.", "included": false, "order": 149 },
-        { "id": "growth-valor-vsv-151-voltage", "name": "VOLTAGE", "url": "voltage.cloud", "desc": "Is a cloud infrastructure and developer tools platform offering enterprise-grade bitcoin and lightning network node.", "included": false, "order": 150 },
-        { "id": "growth-valor-vsv-152-weka", "name": "WEKA", "url": "weka.io", "desc": "Building a software-defined, file storage platform designed for artificial intelligence and machine learning to unlock.", "included": true, "order": 151 },
-        { "id": "growth-valor-vsv-153-wesper", "name": "WESPER", "url": "wesper.co", "desc": "Sleep tech company leveraging FDA cleared platform to bring “the sleep clinic into the home” and disrupt the obstructive sleep.", "included": false, "order": 152 },
-        { "id": "growth-valor-vsv-154-wow-bao", "name": "WOW BAO", "url": "wowbao.com", "desc": "Fast-casual restaurant chain and consumer packaged goods brand specializing in Asian street food.", "included": true, "order": 153 },
-        { "id": "growth-valor-vsv-155-xage-security", "name": "XAGE SECURITY", "url": "xage.com", "desc": "Xage is a global leader in zero trust access and protection.", "included": true, "order": 154 },
-        { "id": "growth-valor-vsv-156-xsight-labs", "name": "XSIGHT LABS", "url": "xsightlabs.com", "desc": "Fabless semiconductor company that is developing silicon switches and edge processing units to enable end-to-end connectivity for.", "included": true, "order": 155 },
-        { "id": "growth-valor-vsv-157-zap-energy", "name": "ZAP ENERGY", "url": "zapenergy.com", "desc": "Is developing a small, scalable z-pinch nuclear fusion reactor to help build the future of sustainable energy.", "included": false, "order": 156 },
-        { "id": "growth-valor-vsv-158-zeitview", "name": "ZEITVIEW", "url": "zeitview.com", "desc": "Tech-enabled inspection and analytics platform leveraging drones for solar, wind, and infrastructure asset management.", "included": true, "order": 157 },
-        { "id": "growth-valor-vsv-159-zellerfeld", "name": "ZELLERFELD", "url": "zellerfeld.com", "desc": "Vertically-integrated 3D printing farm operator and DTC e-commerce platform for custom-fitted shoes.", "included": true, "order": 158 },
-        { "id": "growth-valor-vsv-160-zipline", "name": "ZIPLINE", "url": "zipline.com", "desc": "Designing, manufacturing, and operating the world’s largest autonomous, drone-based delivery system to serve all humans equally.", "included": true, "order": 159 }
+        {
+          "id": "growth-valor-vsv-001-aalo",
+          "name": "AALO",
+          "url": "aalo.com",
+          "desc": "Advanced nuclear fission reactor developer providing carbon-free, reliable power.",
+          "included": true,
+          "order": 0
+        },
+        {
+          "id": "growth-valor-vsv-002-abridge",
+          "name": "ABRIDGE",
+          "url": "abridge.com",
+          "desc": "AI platform purpose-built for healthcare to surface clinical insights from patient-provider conversations.",
+          "included": false,
+          "order": 1
+        },
+        {
+          "id": "growth-valor-vsv-003-addepar",
+          "name": "ADDEPAR",
+          "url": "addepar.com",
+          "desc": "Financial reporting and analytics platform for wealth managers and institutions managing complex portfolios.",
+          "included": true,
+          "order": 2
+        },
+        {
+          "id": "growth-valor-vsv-004-aescape",
+          "name": "AESCAPE",
+          "url": "aescape.com",
+          "desc": "AI-powered fully robotic massage tables delivering a superhuman alternative to human massage therapy.",
+          "included": true,
+          "order": 3
+        },
+        {
+          "id": "growth-valor-vsv-005-aexlab",
+          "name": "AEXLAB",
+          "url": "aexlab.com",
+          "desc": "Immersive technology platform enabling presence and connection in virtual worlds for gaming, training, and enterprise.",
+          "included": false,
+          "order": 4
+        },
+        {
+          "id": "growth-valor-vsv-006-agentsync",
+          "name": "AGENTSYNC",
+          "url": "agentsync.io",
+          "desc": "Modern producer management and compliance platform built for the insurance industry.",
+          "included": true,
+          "order": 5
+        },
+        {
+          "id": "growth-valor-vsv-007-agrippa-industries",
+          "name": "AGRIPPA INDUSTRIES",
+          "url": "agrippaindustries.com",
+          "desc": "Autonomous maritime logistics provider offering lower-cost, more sustainable freight solutions.",
+          "included": true,
+          "order": 6
+        },
+        {
+          "id": "growth-valor-vsv-008-amboss-technologies",
+          "name": "AMBOSS TECHNOLOGIES",
+          "url": "amboss.space",
+          "desc": "Data analytics and liquidity marketplace platform serving enterprise clients in digital asset markets.",
+          "included": false,
+          "order": 7
+        },
+        {
+          "id": "growth-valor-vsv-009-amp-sortation",
+          "name": "AMP SORTATION",
+          "url": "ampsortation.com",
+          "desc": "Low-cost, high-throughput robotics and computer vision technology for waste and recyclable material sorting.",
+          "included": false,
+          "order": 8
+        },
+        {
+          "id": "growth-valor-vsv-010-andrenam",
+          "name": "ANDRENAM",
+          "url": "andrenam.com",
+          "desc": "Vertically integrated maritime sensing platform combining low-cost hardware with autonomous vehicle swarms.",
+          "included": true,
+          "order": 9
+        },
+        {
+          "id": "growth-valor-vsv-011-anduril-industries",
+          "name": "ANDURIL INDUSTRIES",
+          "url": "anduril.com",
+          "desc": "Defense technology company leveraging advanced hardware and software to build autonomous systems for national security.",
+          "included": true,
+          "order": 10
+        },
+        {
+          "id": "growth-valor-vsv-012-arc-boats",
+          "name": "ARC BOATS.",
+          "url": "arcboats.com",
+          "desc": "Electric boat manufacturer electrifying the marine industry, starting with recreational boating.",
+          "included": false,
+          "order": 11
+        },
+        {
+          "id": "growth-valor-vsv-013-armada-ai",
+          "name": "ARMADA AI",
+          "url": "armada.ai",
+          "desc": "Full-stack edge computing platform delivering connectivity, compute, and AI in remote and contested environments.",
+          "included": false,
+          "order": 12
+        },
+        {
+          "id": "growth-valor-vsv-014-arovy",
+          "name": "AROVY",
+          "url": "arovy.com",
+          "desc": "Change intelligence platform for operations, revenue, and systems teams managing Salesforce ecosystems.",
+          "included": false,
+          "order": 13
+        },
+        {
+          "id": "growth-valor-vsv-015-athena",
+          "name": "ATHENA",
+          "url": "athena.com",
+          "desc": "",
+          "included": false,
+          "order": 14
+        },
+        {
+          "id": "growth-valor-vsv-016-atmospheretv",
+          "name": "ATMOSPHERETV",
+          "url": "atmosphere.tv",
+          "desc": "Streaming TV and advertising platform purpose-built for commercial venues featuring audio-optional content.",
+          "included": true,
+          "order": 15
+        },
+        {
+          "id": "growth-valor-vsv-017-atomic-machines",
+          "name": "ATOMIC MACHINES",
+          "url": "atomicmachines.com",
+          "desc": "Micro-manufacturing technology delivering next-generation high-performance components at scale.",
+          "included": true,
+          "order": 16
+        },
+        {
+          "id": "growth-valor-vsv-018-base-power",
+          "name": "BASE POWER",
+          "url": "basepowercompany.com",
+          "desc": "Residential and commercial energy solution provider building distributed energy infrastructure across the US.",
+          "included": true,
+          "order": 17
+        },
+        {
+          "id": "growth-valor-vsv-019-basic-space",
+          "name": "BASIC.SPACE",
+          "url": "basic.space",
+          "desc": "Social commerce platform with a curated marketplace and in-person experiences built around community.",
+          "included": false,
+          "order": 18
+        },
+        {
+          "id": "growth-valor-vsv-020-bedrock",
+          "name": "BEDROCK",
+          "url": "bedrockocean.com",
+          "desc": "Seafloor mapping and ocean monitoring company advancing critical ocean infrastructure and intelligence.",
+          "included": false,
+          "order": 19
+        },
+        {
+          "id": "growth-valor-vsv-021-biobot-analytics",
+          "name": "BIOBOT ANALYTICS",
+          "url": "biobot.io",
+          "desc": "Wastewater intelligence platform delivering public health insights to governments and enterprises.",
+          "included": true,
+          "order": 20
+        },
+        {
+          "id": "growth-valor-vsv-022-bitgo-holdings",
+          "name": "BITGO HOLDINGS",
+          "url": "bitgo.com",
+          "desc": "Institutional digital asset security, compliance, and custody infrastructure provider.",
+          "included": true,
+          "order": 21
+        },
+        {
+          "id": "growth-valor-vsv-023-bitwave",
+          "name": "BITWAVE",
+          "url": "bitwave.io",
+          "desc": "Enterprise crypto accounting and tax software for end-to-end financial management of digital assets.",
+          "included": false,
+          "order": 22
+        },
+        {
+          "id": "growth-valor-vsv-024-bluevoyant",
+          "name": "BLUEVOYANT",
+          "url": "bluevoyant.com",
+          "desc": "",
+          "included": false,
+          "order": 23
+        },
+        {
+          "id": "growth-valor-vsv-025-brainsway",
+          "name": "BRAINSWAY",
+          "url": "brainsway.com",
+          "desc": "Non-invasive neurostimulation technology company treating mental health disorders including depression and OCD.",
+          "included": true,
+          "order": 24
+        },
+        {
+          "id": "growth-valor-vsv-026-cameo",
+          "name": "CAMEO",
+          "url": "cameo.com",
+          "desc": "Marketplace connecting fans with celebrities for personalized video messages and experiences.",
+          "included": false,
+          "order": 25
+        },
+        {
+          "id": "growth-valor-vsv-027-carbyne",
+          "name": "CARBYNE",
+          "url": "carbyne.com",
+          "desc": "Real-time emergency communication platform delivering next-generation 911 infrastructure for public safety agencies.",
+          "included": false,
+          "order": 26
+        },
+        {
+          "id": "growth-valor-vsv-028-castle-creek-biosciences",
+          "name": "CASTLE CREEK BIOSCIENCES",
+          "url": "castlecreekbio.com",
+          "desc": "Clinical-stage cell and gene therapy company developing disease-modifying treatments for genetic skin disorders.",
+          "included": true,
+          "order": 27
+        },
+        {
+          "id": "growth-valor-vsv-029-cerby",
+          "name": "CERBY",
+          "url": "cerby.com",
+          "desc": "Agentic AI security platform managing identities and access across disconnected enterprise applications.",
+          "included": true,
+          "order": 28
+        },
+        {
+          "id": "growth-valor-vsv-030-chaos",
+          "name": "CHAOS",
+          "url": "chaosinc.com",
+          "desc": "Next-generation radar systems purpose-built for defense, government, and critical infrastructure applications.",
+          "included": true,
+          "order": 29
+        },
+        {
+          "id": "growth-valor-vsv-031-charm-industrial",
+          "name": "CHARM INDUSTRIAL",
+          "url": "charmindustrial.com",
+          "desc": "",
+          "included": false,
+          "order": 30
+        },
+        {
+          "id": "growth-valor-vsv-032-chowly",
+          "name": "CHOWLY",
+          "url": "chowly.com",
+          "desc": "’s all in one full-service digital ordering platform for restaurants meets customers wherever they are online and.",
+          "included": false,
+          "order": 31
+        },
+        {
+          "id": "growth-valor-vsv-033-circ-biosciences",
+          "name": "CIRC BIOSCIENCES",
+          "url": "circbiosciences.com",
+          "desc": "Regenerative medicine company targeting the hardest-to-treat degenerative diseases characterized by significant cell death",
+          "included": true,
+          "order": 32
+        },
+        {
+          "id": "growth-valor-vsv-034-cloud9",
+          "name": "CLOUD9",
+          "url": "cloud9.gg",
+          "desc": "One of the premier organizations in the esports industry, with a focus on developing top-tier athletes, engaging broadly with.",
+          "included": true,
+          "order": 33
+        },
+        {
+          "id": "growth-valor-vsv-035-coalition",
+          "name": "COALITION",
+          "url": "coalitioninc.com",
+          "desc": "Disruptive cybersecurity managing general agent that performs underwriting, claims, and incident response services.",
+          "included": true,
+          "order": 34
+        },
+        {
+          "id": "growth-valor-vsv-036-coincover",
+          "name": "COINCOVER",
+          "url": "coincover.com",
+          "desc": "Provides security and recovery solutions for digital assets.",
+          "included": false,
+          "order": 35
+        },
+        {
+          "id": "growth-valor-vsv-037-compscience",
+          "name": "COMPSCIENCE",
+          "url": "compscience.com",
+          "desc": "Provider of AI & computer vision-enabled software that automates workplace safety inspections and powers workers' compensation.",
+          "included": true,
+          "order": 36
+        },
+        {
+          "id": "growth-valor-vsv-038-counterpart",
+          "name": "COUNTERPART",
+          "url": "yourcounterpart.com",
+          "desc": "Technology-enabled managing general agent offering insurance for Directors & Officers, Employment Practices, and Fiduciary.",
+          "included": true,
+          "order": 37
+        },
+        {
+          "id": "growth-valor-vsv-039-cover",
+          "name": "COVER",
+          "url": "buildcover.com",
+          "desc": "Designs, manufactures, and installs custom homes and backyard studios.",
+          "included": false,
+          "order": 38
+        },
+        {
+          "id": "growth-valor-vsv-040-cred-ai",
+          "name": "CRED.AI",
+          "url": "cred.ai",
+          "desc": "Financial wellness platform providing underserved populations with the ability to raise credit scores",
+          "included": false,
+          "order": 39
+        },
+        {
+          "id": "growth-valor-vsv-041-crusoe",
+          "name": "CRUSOE",
+          "url": "crusoe.ai",
+          "desc": "Is a leading vertically-integrated ai infrastructure provider focused on sustainably powered data centers and full-stack.",
+          "included": true,
+          "order": 40
+        },
+        {
+          "id": "growth-valor-vsv-042-cumulus-coffee",
+          "name": "CUMULUS COFFEE",
+          "url": "cumuluscoffee.com",
+          "desc": "Cumulus is designing and selling an at-home coffee system that crafts high quality cold brew, nitro cold brew, and cold espresso.",
+          "included": false,
+          "order": 41
+        },
+        {
+          "id": "growth-valor-vsv-043-dataminr",
+          "name": "DATAMINR",
+          "url": "dataminr.com",
+          "desc": "Leading real-time information discovery platform that uses proprietary artificial intelligence and machine learning tools to.",
+          "included": true,
+          "order": 42
+        },
+        {
+          "id": "growth-valor-vsv-044-david-protein",
+          "name": "DAVID PROTEIN",
+          "url": "davidprotein.com",
+          "desc": "CPG food technology company with an industry-leading macronutrient protein bar.",
+          "included": true,
+          "order": 43
+        },
+        {
+          "id": "growth-valor-vsv-045-defense-unicorns",
+          "name": "DEFENSE UNICORNS",
+          "url": "defenseunicorns.com",
+          "desc": "Is revolutionizing how the u.s.",
+          "included": false,
+          "order": 44
+        },
+        {
+          "id": "growth-valor-vsv-046-disa",
+          "name": "DISA",
+          "url": "disatech.com",
+          "desc": "Developer of a materials liberation technology designed to optimize the efficacy of mineral processing for mining and remediation",
+          "included": true,
+          "order": 45
+        },
+        {
+          "id": "growth-valor-vsv-047-eight-sleep",
+          "name": "EIGHT SLEEP",
+          "url": "eightsleep.com",
+          "desc": "Sleep tech company leveraging dynamic thermoregulation and sleep stat tracking to help users enhance sleep performance and.",
+          "included": true,
+          "order": 46
+        },
+        {
+          "id": "growth-valor-vsv-048-electra",
+          "name": "ELECTRA",
+          "url": "electra.earth",
+          "desc": "",
+          "included": false,
+          "order": 47
+        },
+        {
+          "id": "growth-valor-vsv-049-electric",
+          "name": "ELECTRIC",
+          "url": "electric.ai",
+          "desc": "Eletric provides an all-in-one IT management platform for small to mid-sized businesses.",
+          "included": false,
+          "order": 48
+        },
+        {
+          "id": "growth-valor-vsv-050-emerja",
+          "name": "EMERJA",
+          "url": "emerja.io",
+          "desc": "Medical technology company leveraging thermoregulation data to identify homeostasis and preemptively detect changes in health",
+          "included": false,
+          "order": 49
+        },
+        {
+          "id": "growth-valor-vsv-051-endless-west",
+          "name": "ENDLESS WEST",
+          "url": "endlesswest.com",
+          "desc": "Is a beverage technology company that uses molecular science to create spirits and wines",
+          "included": false,
+          "order": 50
+        },
+        {
+          "id": "growth-valor-vsv-052-everyrealm",
+          "name": "EVERYREALM",
+          "url": "everyrealm.com",
+          "desc": "Is a pioneer in virtual worlds, working across platforms, chains, and protocols to develop experiences that allow.",
+          "included": false,
+          "order": 51
+        },
+        {
+          "id": "growth-valor-vsv-053-evozyne",
+          "name": "EVOZYNE",
+          "url": "evozyne.com",
+          "desc": "Data-driven molecular engineering platform leveraging AI to design novel proteins for industrial and therapeutic applications.",
+          "included": true,
+          "order": 52
+        },
+        {
+          "id": "growth-valor-vsv-054-extropic-ai",
+          "name": "EXTROPIC AI",
+          "url": "extropic.ai",
+          "desc": "Full-stack solution leveraging principles of thermodynamic computing and physics-based AI",
+          "included": true,
+          "order": 53
+        },
+        {
+          "id": "growth-valor-vsv-055-fooda",
+          "name": "FOODA",
+          "url": "fooda.com",
+          "desc": "Disrupting the corporate lunch market by leveraging untapped restaurant capacity to conveniently provide great food to employees.",
+          "included": true,
+          "order": 54
+        },
+        {
+          "id": "growth-valor-vsv-056-fortell",
+          "name": "FORTELL",
+          "url": "fortell.com",
+          "desc": "Next-gen hearing tech platform building a disruptive, vertically-integrated hearing aid that leverages artificial intelligence on.",
+          "included": true,
+          "order": 55
+        },
+        {
+          "id": "growth-valor-vsv-057-freeform",
+          "name": "FREEFORM",
+          "url": "freeform.co",
+          "desc": "Combines AI, hardware-accelerated computing, and an autonomous factory architecture to deliver high-quality metal parts faster,.",
+          "included": true,
+          "order": 56
+        },
+        {
+          "id": "growth-valor-vsv-058-galoy",
+          "name": "GALOY",
+          "url": "galoy.io",
+          "desc": "Developer of Bitcoin & Lightning Network (“BTC/LN”) banking infrastructure on a free & open-source software (“FOSS”) standard.",
+          "included": false,
+          "order": 57
+        },
+        {
+          "id": "growth-valor-vsv-059-general-intuition",
+          "name": "GENERAL INTUITION",
+          "url": "generalintuition.com",
+          "desc": "",
+          "included": false,
+          "order": 58
+        },
+        {
+          "id": "growth-valor-vsv-060-general-matter",
+          "name": "GENERAL MATTER",
+          "url": "generalmatter.com",
+          "desc": "Is developing vertically integrated, cost-competitive uranium enrichment services.",
+          "included": true,
+          "order": 59
+        },
+        {
+          "id": "growth-valor-vsv-061-genvid-technologies",
+          "name": "GENVID TECHNOLOGIES",
+          "url": "genvid.com",
+          "desc": "Groundbreaking software developer bringing real-time, mass audience interactivity to video games and streaming content.",
+          "included": true,
+          "order": 60
+        },
+        {
+          "id": "growth-valor-vsv-062-glyphic-biotechnologies",
+          "name": "GLYPHIC BIOTECHNOLOGIES",
+          "url": "glyphic.bio",
+          "desc": "Is a proteomic sequencing company developing a scalable platform with single protein resolution to.",
+          "included": false,
+          "order": 61
+        },
+        {
+          "id": "growth-valor-vsv-063-gopuff",
+          "name": "GOPUFF",
+          "url": "gopuff.com",
+          "desc": "On-demand virtual convenience store delivering everyday essentials in under 30 minutes.",
+          "included": true,
+          "order": 62
+        },
+        {
+          "id": "growth-valor-vsv-064-gromacorp",
+          "name": "GROMACORP",
+          "url": "groma.com",
+          "desc": "Boston-based real estate investment, development, and management platform that uses software to source/underwrite multifamily.",
+          "included": true,
+          "order": 63
+        },
+        {
+          "id": "growth-valor-vsv-065-groq",
+          "name": "GROQ",
+          "url": "groq.com",
+          "desc": "Offers fast, affordable, and energy efficient ai inference powered by its lpu chip; groq acquired definitive intelligence, a.",
+          "included": false,
+          "order": 64
+        },
+        {
+          "id": "growth-valor-vsv-066-hackerone",
+          "name": "HACKERONE",
+          "url": "hackerone.com",
+          "desc": "Leading two-sided marketplace that connects “white hat” hackers with organizations of all sizes to find system vulnerabilities.",
+          "included": true,
+          "order": 65
+        },
+        {
+          "id": "growth-valor-vsv-067-hadrian",
+          "name": "HADRIAN",
+          "url": "hadrian.co",
+          "desc": "Software-enabled precision manufacturing company building autonomous factories for the US defense supply chain.",
+          "included": true,
+          "order": 66
+        },
+        {
+          "id": "growth-valor-vsv-068-hadron",
+          "name": "HADRON",
+          "url": "hadron.com",
+          "desc": "AI-powered platform that seeks to disrupt institutional investing in private markets by automating complex workflows starting.",
+          "included": true,
+          "order": 67
+        },
+        {
+          "id": "growth-valor-vsv-069-hidden-level",
+          "name": "HIDDEN LEVEL",
+          "url": "hiddenlevel.com",
+          "desc": "Is an advanced radio frequency (rf) sensing company that is “building the highways in the skies” with a new.",
+          "included": false,
+          "order": 68
+        },
+        {
+          "id": "growth-valor-vsv-070-highlight",
+          "name": "HIGHLIGHT",
+          "url": "highlightai.com",
+          "desc": "Contextual Search and Prompting Engine",
+          "included": true,
+          "order": 69
+        },
+        {
+          "id": "growth-valor-vsv-071-hoseki",
+          "name": "HOSEKI",
+          "url": "hoseki.app",
+          "desc": "Is a digital asset verification platform offering api-based proof-of-ownership solutions to financial services enterprises.",
+          "included": false,
+          "order": 70
+        },
+        {
+          "id": "growth-valor-vsv-072-impulse-space",
+          "name": "IMPULSE SPACE",
+          "url": "impulsespace.com",
+          "desc": "Manufacturer of aviation and aerospace components designed for economical and last-mile space payload delivery.",
+          "included": true,
+          "order": 71
+        },
+        {
+          "id": "growth-valor-vsv-073-jkbx",
+          "name": "JKBX",
+          "url": "jkbx.com",
+          "desc": "A platform that democratizes the ownership of song royalties at scale via non-fungible tokens",
+          "included": false,
+          "order": 72
+        },
+        {
+          "id": "growth-valor-vsv-074-k-health",
+          "name": "K HEALTH",
+          "url": "khealth.com",
+          "desc": "AI-powered virtual primary care platform that provides users with data-driven, probabilistic diagnoses via an interactive mobile.",
+          "included": true,
+          "order": 73
+        },
+        {
+          "id": "growth-valor-vsv-075-k2-space",
+          "name": "K2 SPACE",
+          "url": "k2space.com",
+          "desc": "Is a satellite bus manufacturer developing large platforms that seek to be the foundation for new and expanding.",
+          "included": true,
+          "order": 74
+        },
+        {
+          "id": "growth-valor-vsv-076-kettle",
+          "name": "KETTLE",
+          "url": "ourkettle.com",
+          "desc": "Is an insurtech that uses ai and machine learning to improve reinsurance for catastrophic events such as wildfires.",
+          "included": false,
+          "order": 75
+        },
+        {
+          "id": "growth-valor-vsv-077-kigo",
+          "name": "KIGO",
+          "url": "kigo.io",
+          "desc": "Digital asset platform that powers loyalty and engagement technology for enterprise brands",
+          "included": true,
+          "order": 76
+        },
+        {
+          "id": "growth-valor-vsv-078-launch-fund",
+          "name": "LAUNCH FUND",
+          "url": "launchaccelerator.co",
+          "desc": "",
+          "included": false,
+          "order": 77
+        },
+        {
+          "id": "growth-valor-vsv-079-legacy-laboratory-services-healthcare",
+          "name": "LEGACY (LABORATORY SERVICES (HEALTHCARE))",
+          "url": "givelegacy.com",
+          "desc": "Creating a platform to affordably test and freeze sperm from the comfort of home.",
+          "included": false,
+          "order": 78
+        },
+        {
+          "id": "growth-valor-vsv-080-lightbits-labs",
+          "name": "LIGHTBITS LABS",
+          "url": "lightbitslabs.com",
+          "desc": "Is developing high-performance, software-defined cloud storage solutions for enterprise data centers.",
+          "included": false,
+          "order": 79
+        },
+        {
+          "id": "growth-valor-vsv-081-lightning-labs",
+          "name": "LIGHTNING LABS",
+          "url": "lightning.engineering",
+          "desc": "Develops software that powers the Lightning Network, enabling faster, cheaper, and more scalable Bitcoin transactions.",
+          "included": true,
+          "order": 80
+        },
+        {
+          "id": "growth-valor-vsv-082-lilac",
+          "name": "LILAC",
+          "url": "lilacsolutions.com",
+          "desc": "",
+          "included": false,
+          "order": 81
+        },
+        {
+          "id": "growth-valor-vsv-083-little-spoon",
+          "name": "LITTLE SPOON",
+          "url": "littlespoon.com",
+          "desc": "Direct-to-consumer food and nutrition company disrupting the childhood health and wellness market.",
+          "included": true,
+          "order": 82
+        },
+        {
+          "id": "growth-valor-vsv-084-loyal",
+          "name": "LOYAL",
+          "url": "loyal.com",
+          "desc": "First-to-market life extension drug for dogs targeting aging pathways to extend canine healthspan.",
+          "included": true,
+          "order": 83
+        },
+        {
+          "id": "growth-valor-vsv-085-luminary",
+          "name": "LUMINARY",
+          "url": "luminarypodcasts.com",
+          "desc": "Subscription podcast network with an award-winning lineup of original shows.",
+          "included": false,
+          "order": 84
+        },
+        {
+          "id": "growth-valor-vsv-086-lyte-tech",
+          "name": "LYTE TECH",
+          "url": "lyte-tech.com",
+          "desc": "Lyte is developing a disruptive FMCW LiDAR technology to deliver an advanced optical sensing platform for the next generation of.",
+          "included": true,
+          "order": 85
+        },
+        {
+          "id": "growth-valor-vsv-087-magicschool",
+          "name": "MAGICSCHOOL",
+          "url": "magicschool.ai",
+          "desc": "Education technology company offering a range of AI-powered tools and resources to assist educators and students in K-12 schools.",
+          "included": true,
+          "order": 86
+        },
+        {
+          "id": "growth-valor-vsv-088-manduka",
+          "name": "MANDUKA",
+          "url": "manduka.com",
+          "desc": "Designs and sells premium yoga products, including mats, towels, and accessories, to instructors and dedicated enthusiasts.",
+          "included": true,
+          "order": 87
+        },
+        {
+          "id": "growth-valor-vsv-089-mare-liberum",
+          "name": "MARE LIBERUM",
+          "url": "mareliberum.com",
+          "desc": "Is a team of maritime operators, investors, and national security experts who are charting the course for a.",
+          "included": false,
+          "order": 88
+        },
+        {
+          "id": "growth-valor-vsv-090-mega",
+          "name": "MEGA",
+          "url": "gomega.ai",
+          "desc": "AI-powered SMB-focused digital marketing agency business",
+          "included": true,
+          "order": 89
+        },
+        {
+          "id": "growth-valor-vsv-091-meter",
+          "name": "METER",
+          "url": "meter.com",
+          "desc": "(or the “company”) offers secure, vertically-integrated enterprise networks built from the ground up.",
+          "included": true,
+          "order": 90
+        },
+        {
+          "id": "growth-valor-vsv-092-mill-industries",
+          "name": "MILL INDUSTRIES",
+          "url": "mill.com",
+          "desc": "Developer of sustainable trash bins designed to convert waste into compost.",
+          "included": false,
+          "order": 91
+        },
+        {
+          "id": "growth-valor-vsv-093-misfits-market",
+          "name": "MISFITS MARKET",
+          "url": "misfitsmarket.com",
+          "desc": "Direct-to-consumer grocery subscription delivering affordable, high-quality food from surplus supply.",
+          "included": true,
+          "order": 92
+        },
+        {
+          "id": "growth-valor-vsv-094-mode-analytics-thoughtspot",
+          "name": "MODE ANALYTICS (THOUGHTSPOT)",
+          "url": "thoughtspot.com",
+          "desc": "ThoughtSpot (acquired Mode in 2023) is an enterprise-focused data analytics platform that allows users to analyze data, generate.",
+          "included": true,
+          "order": 93
+        },
+        {
+          "id": "growth-valor-vsv-095-modretro",
+          "name": "MODRETRO",
+          "url": "modretro.com",
+          "desc": "(or the “company”) is building a diversified, vertically integrated consumer electronics platform bringing a premium,.",
+          "included": true,
+          "order": 94
+        },
+        {
+          "id": "growth-valor-vsv-096-mozart-data",
+          "name": "MOZART DATA",
+          "url": "mozartdata.com",
+          "desc": "Is an all-in-one modern data platform for centralizing, organizing, and analyzing data.",
+          "included": false,
+          "order": 95
+        },
+        {
+          "id": "growth-valor-vsv-097-mycoworks",
+          "name": "MYCOWORKS",
+          "url": "mycoworks.com",
+          "desc": "Biotechnology company founded by artists with the mission to create a platform for the highest quality materials using Fine.",
+          "included": false,
+          "order": 96
+        },
+        {
+          "id": "growth-valor-vsv-098-mythic",
+          "name": "MYTHIC",
+          "url": "mythic.ai",
+          "desc": "Developing artificial intelligence optimized semiconductor chips that use analog computation to deliver superior performance.",
+          "included": false,
+          "order": 97
+        },
+        {
+          "id": "growth-valor-vsv-099-nabr",
+          "name": "NABR",
+          "url": "nabr.com",
+          "desc": "Digital housing development platform.",
+          "included": false,
+          "order": 98
+        },
+        {
+          "id": "growth-valor-vsv-100-neros",
+          "name": "NEROS",
+          "url": "neros.tech",
+          "desc": "Manufacturer of unmanned aerial systems for military and allied forces requiring persistent intelligence and reconnaissance.",
+          "included": true,
+          "order": 99
+        },
+        {
+          "id": "growth-valor-vsv-101-neuralink",
+          "name": "NEURALINK",
+          "url": "neuralink.com",
+          "desc": "Developing brain-machine interface technology that aims to treat serious brain diseases and injuries and eventually enhance human.",
+          "included": true,
+          "order": 100
+        },
+        {
+          "id": "growth-valor-vsv-102-nexar",
+          "name": "NEXAR",
+          "url": "getnexar.com",
+          "desc": "Powered dash cams enable new vision-based applications for better driving.",
+          "included": false,
+          "order": 101
+        },
+        {
+          "id": "growth-valor-vsv-103-nile",
+          "name": "NILE",
+          "url": "nilesecure.com",
+          "desc": "Is a networking-as-a-service provider that is disrupting the legacy, hardware-focused enterprise network market with a.",
+          "included": false,
+          "order": 102
+        },
+        {
+          "id": "growth-valor-vsv-104-nirvana",
+          "name": "NIRVANA",
+          "url": "nirvanatech.com",
+          "desc": "Technology-enabled managing general agent disrupting the commercial trucking insurance space through AI-powered underwriting.",
+          "included": true,
+          "order": 103
+        },
+        {
+          "id": "growth-valor-vsv-105-ocient",
+          "name": "OCIENT",
+          "url": "ocient.com",
+          "desc": "To deliver next-generation data analytics, completely reimagining data warehouse design to deliver real-time analysis of complex,.",
+          "included": false,
+          "order": 104
+        },
+        {
+          "id": "growth-valor-vsv-106-opal-camera",
+          "name": "OPAL CAMERA",
+          "url": "op.al",
+          "desc": "Is a consumer hardware company developing a physical interface for artificial intelligence.",
+          "included": false,
+          "order": 105
+        },
+        {
+          "id": "growth-valor-vsv-107-openfx",
+          "name": "OPENFX",
+          "url": "openfx.com",
+          "desc": "Is developing foundational foreign exchange (“fx”) infrastructure for cross-border payments.",
+          "included": true,
+          "order": 106
+        },
+        {
+          "id": "growth-valor-vsv-108-osaro",
+          "name": "OSARO",
+          "url": "osaro.com",
+          "desc": "Specializes in ai-driven robotic automation for industrial applications, particularly in logistics and e-commerce.",
+          "included": false,
+          "order": 107
+        },
+        {
+          "id": "growth-valor-vsv-109-pallet",
+          "name": "PALLET",
+          "url": "pallet.xyz",
+          "desc": "Was focused on building modern hiring infrastructure.",
+          "included": false,
+          "order": 108
+        },
+        {
+          "id": "growth-valor-vsv-110-pangaia-materials-science",
+          "name": "PANGAIA MATERIALS SCIENCE",
+          "url": "pangaia.com",
+          "desc": "Sustainability-focused, direct-to-consumer materials science company bringing breakthrough and patented materials innovations.",
+          "included": false,
+          "order": 109
+        },
+        {
+          "id": "growth-valor-vsv-111-pano",
+          "name": "PANO",
+          "url": "pano.ai",
+          "desc": "Is a full stack natural disaster prevention and response platform that unifies hardware, proprietary ai, software, and.",
+          "included": false,
+          "order": 110
+        },
+        {
+          "id": "growth-valor-vsv-112-pattern-biosciences",
+          "name": "PATTERN BIOSCIENCES",
+          "url": "patternbio.com",
+          "desc": "Is building a “sense, compute, cure” biocomputing platform to enable the delivery of therapeutics with more.",
+          "included": true,
+          "order": 111
+        },
+        {
+          "id": "growth-valor-vsv-113-pearl",
+          "name": "PEARL",
+          "url": "hellopearl.com",
+          "desc": "Developing AI-powered dental solutions to improve the efficiency, consistency, and accuracy of patient exams & practice operations",
+          "included": false,
+          "order": 112
+        },
+        {
+          "id": "growth-valor-vsv-114-percipient-ai",
+          "name": "PERCIPIENT.AI",
+          "url": "percipient.ai",
+          "desc": "Specializes in artificial intelligence, machine learning, and computer vision for national security and.",
+          "included": false,
+          "order": 113
+        },
+        {
+          "id": "growth-valor-vsv-115-pivot",
+          "name": "PIVOT",
+          "url": "pivot.co",
+          "desc": "Modern tobacco cessation solution that empowers people to cultivate enduring behavioral changes",
+          "included": false,
+          "order": 114
+        },
+        {
+          "id": "growth-valor-vsv-116-polymarket",
+          "name": "POLYMARKET",
+          "url": "polymarket.com",
+          "desc": "One of the world’s largest prediction market platforms, operating as a decentralized, blockchain-powered system that enables.",
+          "included": true,
+          "order": 115
+        },
+        {
+          "id": "growth-valor-vsv-117-portless",
+          "name": "PORTLESS",
+          "url": "portless.com",
+          "desc": "Logistics technology business that enables international eCommerce fulfilment",
+          "included": false,
+          "order": 116
+        },
+        {
+          "id": "growth-valor-vsv-118-pragma",
+          "name": "PRAGMA",
+          "url": "pragma.gg",
+          "desc": "Is a developer of scalable backend infrastructure which will power live services gaming",
+          "included": false,
+          "order": 117
+        },
+        {
+          "id": "growth-valor-vsv-119-prefect",
+          "name": "PREFECT",
+          "url": "prefect.io",
+          "desc": "Provider of workflow automation management software that allows enterprises to orchestrate complex data processes and minimize.",
+          "included": false,
+          "order": 118
+        },
+        {
+          "id": "growth-valor-vsv-120-proteantecs",
+          "name": "PROTEANTECS",
+          "url": "proteantecs.com",
+          "desc": "Provides deep data analytics for monitoring of advanced electronics.",
+          "included": false,
+          "order": 119
+        },
+        {
+          "id": "growth-valor-vsv-121-proto-town",
+          "name": "PROTO TOWN",
+          "url": "proto.town",
+          "desc": "Proto-Town (or the “Company”) is a vertically integrated real estate development and venture platform creating a purpose-built.",
+          "included": true,
+          "order": 120
+        },
+        {
+          "id": "growth-valor-vsv-122-q-m-technologies",
+          "name": "Q.M TECHNOLOGIES",
+          "url": "quantum-machines.co",
+          "desc": "Quantum Machines is developing platform-agnostic cloud infrastructure that is critical for accelerating the advent of quantum.",
+          "included": true,
+          "order": 121
+        },
+        {
+          "id": "growth-valor-vsv-123-quantifind",
+          "name": "QUANTIFIND",
+          "url": "quantifind.com",
+          "desc": "Is a software company that automates and streamlines kyc/aml screening and investigations by leveraging artificial.",
+          "included": false,
+          "order": 122
+        },
+        {
+          "id": "growth-valor-vsv-124-quera-computing",
+          "name": "QUERA COMPUTING",
+          "url": "quera.com",
+          "desc": "QuEra is developing quantum technology based on neutral atom qubits.",
+          "included": true,
+          "order": 123
+        },
+        {
+          "id": "growth-valor-vsv-125-redwood-materials",
+          "name": "REDWOOD MATERIALS",
+          "url": "redwoodmaterials.com",
+          "desc": "Recycling technology company focused on e-waste with the mission to build a circular supply chain to power a sustainable world.",
+          "included": true,
+          "order": 124
+        },
+        {
+          "id": "growth-valor-vsv-126-regent-craft",
+          "name": "REGENT CRAFT",
+          "url": "regentcraft.com",
+          "desc": "Operator of a maritime mobility company intended to offer fast, safe, and low-cost coastal transportation to customers.",
+          "included": true,
+          "order": 125
+        },
+        {
+          "id": "growth-valor-vsv-127-remora",
+          "name": "REMORA",
+          "url": "remoracarbon.com",
+          "desc": "Developing a highly disruptive first-of-its-kind mobile carbon capture system that seeks to greatly reduce greenhouse gas.",
+          "included": true,
+          "order": 126
+        },
+        {
+          "id": "growth-valor-vsv-128-republic",
+          "name": "REPUBLIC",
+          "url": "republic.com",
+          "desc": "Full-stack private investing platform & regulated infrastructure through which highly-vetted startups, real estate, video games,.",
+          "included": true,
+          "order": 127
+        },
+        {
+          "id": "growth-valor-vsv-129-river",
+          "name": "RIVER.",
+          "url": "river.com",
+          "desc": "River offers a platform for buying, selling, and storing Bitcoin, with an emphasis on security and user control.",
+          "included": false,
+          "order": 128
+        },
+        {
+          "id": "growth-valor-vsv-130-roam-robotics",
+          "name": "ROAM ROBOTICS",
+          "url": "roamrobotics.com",
+          "desc": "Is developing lightweight, low cost, wearable robotic devices to expand human mobility.",
+          "included": false,
+          "order": 129
+        },
+        {
+          "id": "growth-valor-vsv-131-salted",
+          "name": "SALTED",
+          "url": "hellosalted.com",
+          "desc": "Is a company that helps restaurant brands grow without the overhead of traditional restaurants.",
+          "included": false,
+          "order": 130
+        },
+        {
+          "id": "growth-valor-vsv-132-saronic",
+          "name": "SARONIC",
+          "url": "saronic.com",
+          "desc": "Unmanned surface vehicle manufacturer enhancing maritime domain awareness and security for naval operations.",
+          "included": true,
+          "order": 131
+        },
+        {
+          "id": "growth-valor-vsv-133-sightful",
+          "name": "SIGHTFUL",
+          "url": "sightful.com",
+          "desc": "Is bringing ar spatial computing to businesses with a spatial workspace designed for productivity.",
+          "included": false,
+          "order": 132
+        },
+        {
+          "id": "growth-valor-vsv-134-siterx",
+          "name": "SITERX",
+          "url": "siterx.com",
+          "desc": "Clinical trial recruitment platform that empowers physicians to make high-trust patient referrals—leading to faster enrollment.",
+          "included": false,
+          "order": 133
+        },
+        {
+          "id": "growth-valor-vsv-135-slingshot-aerospace",
+          "name": "SLINGSHOT AEROSPACE",
+          "url": "slingshot.space",
+          "desc": "Building advanced space domain awareness, space traffic coordination, and space security solutions to protect and preserve space.",
+          "included": false,
+          "order": 134
+        },
+        {
+          "id": "growth-valor-vsv-136-solink",
+          "name": "SOLINK",
+          "url": "solink.com",
+          "desc": "Software-as-a-service company that is disrupting the video monitoring market with a user-friendly platform that provides loss.",
+          "included": true,
+          "order": 135
+        },
+        {
+          "id": "growth-valor-vsv-137-solugen",
+          "name": "SOLUGEN",
+          "url": "solugen.com",
+          "desc": "",
+          "included": false,
+          "order": 136
+        },
+        {
+          "id": "growth-valor-vsv-138-songfinch",
+          "name": "SONGFINCH",
+          "url": "songfinch.com",
+          "desc": "Is a custom song marketplace platform that enables consumers to create one-of-a-kind songs written by professional.",
+          "included": false,
+          "order": 137
+        },
+        {
+          "id": "growth-valor-vsv-139-spacex",
+          "name": "SPACEX",
+          "url": "spacex.com",
+          "desc": "Designs, manufactures, launches, and operates advanced rockets, spacecraft, and satellites that are increasing the reliability.",
+          "included": true,
+          "order": 138
+        },
+        {
+          "id": "growth-valor-vsv-140-spot-tango",
+          "name": "SPOT & TANGO",
+          "url": "spotandtango.com",
+          "desc": "Direct-to-consumer health and wellness brand disrupting the premium pet food market with fresh, human-grade dog food.",
+          "included": true,
+          "order": 139
+        },
+        {
+          "id": "growth-valor-vsv-141-strider-technologies",
+          "name": "STRIDER TECHNOLOGIES",
+          "url": "striderintel.com",
+          "desc": "Technology platform that allows organizations to protect themselves from IP theft and supply chain vulnerabilities at the.",
+          "included": true,
+          "order": 140
+        },
+        {
+          "id": "growth-valor-vsv-142-synaptic",
+          "name": "SYNAPTIC",
+          "url": "synaptic.com",
+          "desc": "Building the leading alternative data and insights platform for the investment industry.",
+          "included": true,
+          "order": 141
+        },
+        {
+          "id": "growth-valor-vsv-143-the-boring-company",
+          "name": "THE BORING COMPANY",
+          "url": "boringcompany.com",
+          "desc": "Developing tunnel design and construction technology to disrupt the transportation infrastructure space based on cost and product.",
+          "included": true,
+          "order": 142
+        },
+        {
+          "id": "growth-valor-vsv-144-the-fresh-factory",
+          "name": "THE FRESH FACTORY",
+          "url": "thefreshfactory.co",
+          "desc": "The Company develops, formulates, manufactures, distributes, and sells products made from fresh produce and recognizable.",
+          "included": false,
+          "order": 143
+        },
+        {
+          "id": "growth-valor-vsv-145-the-kitchen-american-bistro",
+          "name": "THE KITCHEN AMERICAN BISTRO",
+          "url": "thekitchen.com",
+          "desc": "",
+          "included": false,
+          "order": 144
+        },
+        {
+          "id": "growth-valor-vsv-146-trusted-health",
+          "name": "TRUSTED HEALTH",
+          "url": "trustedhealth.com",
+          "desc": "Platform that connects healthcare professionals, including nurses and allied health pros, to over 20,000 personalized travel job.",
+          "included": false,
+          "order": 145
+        },
+        {
+          "id": "growth-valor-vsv-147-trustworthy",
+          "name": "TRUSTWORTHY",
+          "url": "trustworthy.com",
+          "desc": "Operating system that helps families securely manage critical information in one place",
+          "included": false,
+          "order": 146
+        },
+        {
+          "id": "growth-valor-vsv-148-unchained",
+          "name": "UNCHAINED",
+          "url": "unchained.com",
+          "desc": "Developing blockchain infrastructure that enables individually segregated hypothecation of digital assets, unleashing a new.",
+          "included": true,
+          "order": 147
+        },
+        {
+          "id": "growth-valor-vsv-149-varda-space-industries",
+          "name": "VARDA SPACE INDUSTRIES",
+          "url": "varda.com",
+          "desc": "Varda is building spacecraft and manufacturing payloads to produce and hypersonically test specialized high-demand materials,.",
+          "included": false,
+          "order": 148
+        },
+        {
+          "id": "growth-valor-vsv-150-velosimo",
+          "name": "VELOSIMO",
+          "url": "velosimo.com",
+          "desc": "Provides a no-code/low-code integration platform as a service (ipaas) for government technology systems.",
+          "included": false,
+          "order": 149
+        },
+        {
+          "id": "growth-valor-vsv-151-voltage",
+          "name": "VOLTAGE",
+          "url": "voltage.cloud",
+          "desc": "Is a cloud infrastructure and developer tools platform offering enterprise-grade bitcoin and lightning network node.",
+          "included": false,
+          "order": 150
+        },
+        {
+          "id": "growth-valor-vsv-152-weka",
+          "name": "WEKA",
+          "url": "weka.io",
+          "desc": "Building a software-defined, file storage platform designed for artificial intelligence and machine learning to unlock.",
+          "included": true,
+          "order": 151
+        },
+        {
+          "id": "growth-valor-vsv-153-wesper",
+          "name": "WESPER",
+          "url": "wesper.co",
+          "desc": "Sleep tech company leveraging FDA cleared platform to bring “the sleep clinic into the home” and disrupt the obstructive sleep.",
+          "included": false,
+          "order": 152
+        },
+        {
+          "id": "growth-valor-vsv-154-wow-bao",
+          "name": "WOW BAO",
+          "url": "wowbao.com",
+          "desc": "Fast-casual restaurant chain and consumer packaged goods brand specializing in Asian street food.",
+          "included": true,
+          "order": 153
+        },
+        {
+          "id": "growth-valor-vsv-155-xage-security",
+          "name": "XAGE SECURITY",
+          "url": "xage.com",
+          "desc": "Xage is a global leader in zero trust access and protection.",
+          "included": true,
+          "order": 154
+        },
+        {
+          "id": "growth-valor-vsv-156-xsight-labs",
+          "name": "XSIGHT LABS",
+          "url": "xsightlabs.com",
+          "desc": "Fabless semiconductor company that is developing silicon switches and edge processing units to enable end-to-end connectivity for.",
+          "included": true,
+          "order": 155
+        },
+        {
+          "id": "growth-valor-vsv-157-zap-energy",
+          "name": "ZAP ENERGY",
+          "url": "zapenergy.com",
+          "desc": "Is developing a small, scalable z-pinch nuclear fusion reactor to help build the future of sustainable energy.",
+          "included": false,
+          "order": 156
+        },
+        {
+          "id": "growth-valor-vsv-158-zeitview",
+          "name": "ZEITVIEW",
+          "url": "zeitview.com",
+          "desc": "Tech-enabled inspection and analytics platform leveraging drones for solar, wind, and infrastructure asset management.",
+          "included": true,
+          "order": 157
+        },
+        {
+          "id": "growth-valor-vsv-159-zellerfeld",
+          "name": "ZELLERFELD",
+          "url": "zellerfeld.com",
+          "desc": "Vertically-integrated 3D printing farm operator and DTC e-commerce platform for custom-fitted shoes.",
+          "included": true,
+          "order": 158
+        },
+        {
+          "id": "growth-valor-vsv-160-zipline",
+          "name": "ZIPLINE",
+          "url": "zipline.com",
+          "desc": "Designing, manufacturing, and operating the world’s largest autonomous, drone-based delivery system to serve all humans equally.",
+          "included": true,
+          "order": 159
+        }
       ]
     },
     {
@@ -177,42 +1297,294 @@
       "label": "Venture – VSV",
       "pptLabel": "VENTURE COMPANIES – VSV",
       "companies": [
-        { "id": "venture-vsv-001-aviary-health", "name": "AVIARY HEALTH", "url": "aviaryhealth.com", "desc": "Recora offers a Cardiac Recovery Program that includes virtual sessions, educational tools, support groups, and a recovery kit.", "included": false, "order": 0 },
-        { "id": "venture-vsv-002-avida", "name": "AVIDA", "url": "avida.life", "desc": "Platform that enables creators to launch white-label coaching businesses, leveraging AI-powered tools and support services.", "included": true, "order": 1 },
-        { "id": "venture-vsv-003-bellwether-coffee", "name": "BELLWETHER COFFEE", "url": "bellwethercoffee.com", "desc": "Sustainable coffee roasting platform that allows coffee shops to roast beans on-site through a fully electric device and green.", "included": false, "order": 2 },
-        { "id": "venture-vsv-004-bizscout", "name": "BIZSCOUT", "url": "bizscout.com", "desc": "Marketplace platform that disrupts M&A of small and medium-sized businesses by providing access to qualified business buyers and.", "included": true, "order": 3 },
-        { "id": "venture-vsv-005-black-seed-bagels", "name": "BLACK SEED BAGELS", "url": "blackseedbagels.com", "desc": "Multi-channel bagel brand with an asset light retail footprint", "included": false, "order": 4 },
-        { "id": "venture-vsv-006-blue-ocean-barns", "name": "BLUE OCEAN BARNS", "url": "blueoceanbarns.com", "desc": "Cattle methane reduction via the company's proprietary strain of asparagopsis taxaformis (Brominata).", "included": true, "order": 5 },
-        { "id": "venture-vsv-007-brand-networks", "name": "BRAND NETWORKS", "url": "bn.co", "desc": "Digital marketing technology company that powers social media enablement for enterprise brands", "included": true, "order": 6 },
-        { "id": "venture-vsv-008-campo-grande", "name": "CAMPO GRANDE", "url": "eatcampogrande.com", "desc": "Direct-to-consumer brand that brings unique and premium Spanish food products to the world", "included": true, "order": 7 },
-        { "id": "venture-vsv-009-climate-vault", "name": "CLIMATE VAULT", "url": "climatevault.com", "desc": "Carbon dioxide elimination and innovation platform enabling enterprises to fund verified carbon removal projects.", "included": false, "order": 8 },
-        { "id": "venture-vsv-010-cove", "name": "COVE", "url": "cove.co", "desc": "Materials science business with the first and only fully biodegradable water bottle that is made from PHA to reduce plastic.", "included": false, "order": 9 },
-        { "id": "venture-vsv-011-dispatch-goods", "name": "DISPATCH GOODS", "url": "dispatchgoods.com", "desc": "Reverse logistics platform providing reusable packaging for restaurants and retailers to reduce single-use waste.", "included": false, "order": 10 },
-        { "id": "venture-vsv-012-forum3", "name": "FORUM3", "url": "forum3.com", "desc": "Next-generation customer loyalty platform helping brands deepen engagement through digital ownership and rewards.", "included": false, "order": 11 },
-        { "id": "venture-vsv-013-freshx", "name": "FRESHX", "url": "getfreshx.com", "desc": "End-to-end SaaS solution automating cold chain logistics from order management through last-mile delivery.", "included": true, "order": 12 },
-        { "id": "venture-vsv-014-holobiome", "name": "HOLOBIOME", "url": "holobiome.org", "desc": "Gut microbiome company building a proprietary bacterial data platform for next-generation probiotic therapeutics.", "included": true, "order": 13 },
-        { "id": "venture-vsv-015-joopiter", "name": "JOOPITER", "url": "joopiter.com", "desc": "Digital auction platform and marketplace that disrupts existing luxury auction houses", "included": false, "order": 14 },
-        { "id": "venture-vsv-016-joy", "name": "JOY", "url": "withjoy.com", "desc": "Is a wedding planning software company that offers a free, all-in-one platform for couples to plan their wedding", "included": false, "order": 15 },
-        { "id": "venture-vsv-017-kingdom", "name": "KINGDOM", "url": "kingdomsuperculture.com", "desc": "Biodesign firm that assembles non-genetically engineered microbes for fermented foods and natural products", "included": false, "order": 16 },
-        { "id": "venture-vsv-018-lido", "name": "LIDO", "url": "lido.app", "desc": "No-code software platform that enables business professionals to link internal and external sources to create custom analyses and.", "included": false, "order": 17 },
-        { "id": "venture-vsv-019-light-labs", "name": "LIGHT LABS", "url": "lightlabs.com", "desc": "Food technology company that disrupts the market for nutritional and product purity testing", "included": true, "order": 18 },
-        { "id": "venture-vsv-020-logiwa", "name": "LOGIWA", "url": "logiwa.com", "desc": "Warehouse management software for high volume direct-to-consumer, wholesale, and third-party logistics providers", "included": true, "order": 19 },
-        { "id": "venture-vsv-021-mason-dixie", "name": "MASON DIXIE", "url": "masondixiefoods.com", "desc": "Clean-label consumer packaged goods brand providing ready-to-cook bread products using real, additive-free ingredients.", "included": false, "order": 20 },
-        { "id": "venture-vsv-022-opopop", "name": "OPOPOP", "url": "opopop.com", "desc": "Direct-to-consumer popcorn brand with a small retail presence", "included": true, "order": 21 },
-        { "id": "venture-vsv-023-partanna-united-olive-oil-import-corp", "name": "PARTANNA (UNITED OLIVE OIL IMPORT CORP)", "url": "partannafoods.com", "desc": "High-quality producer and distributor of olives, olive oil, and Italian specialty food products", "included": false, "order": 22 },
-        { "id": "venture-vsv-024-pathspot", "name": "PATHSPOT", "url": "pathspot.com", "desc": "Is a health and safety operating system.", "included": true, "order": 23 },
-        { "id": "venture-vsv-025-pod-foods", "name": "POD FOODS", "url": "podfoods.co", "desc": "B2B technology platform that disrupts consumer packaged goods distribution to retailers via an asset-lite, virtual logistics model", "included": false, "order": 24 },
-        { "id": "venture-vsv-026-resident", "name": "RESIDENT", "url": "meetresident.com", "desc": "Platform that connects chefs, real estate operators, and consumers to create premium, experiential culinary events", "included": false, "order": 25 },
-        { "id": "venture-vsv-027-shameless-pets", "name": "SHAMELESS PETS", "url": "shamelesspets.com", "desc": "Pet treat brand that upcycles food waste into healthy pet treats", "included": true, "order": 26 },
-        { "id": "venture-vsv-028-skinny-butcher", "name": "SKINNY BUTCHER", "url": "skinnybutcher.com", "desc": "Company started as a plant based crispy chicken CPG brand and pivoted to traditional protein.", "included": false, "order": 27 },
-        { "id": "venture-vsv-029-spaarkd", "name": "SPAARKD", "url": "spaarkd.com", "desc": "Creator platform and marketplace for sustainable, customized consumer products", "included": true, "order": 28 },
-        { "id": "venture-vsv-030-square-roots", "name": "SQUARE ROOTS", "url": "squarerootsgrow.com", "desc": "The company recreates ideal growing climates from around the world and offers human ingenuity and technology, enabling.", "included": false, "order": 29 },
-        { "id": "venture-vsv-031-sway-innovation", "name": "SWAY INNOVATION", "url": "swaythefuture.com", "desc": "Seaweed-based packaging that disrupts the single-use plastic market", "included": false, "order": 30 },
-        { "id": "venture-vsv-032-the-desire-company", "name": "THE DESIRE COMPANY", "url": "thedesirecompany.com", "desc": "A complete expert product education solution.", "included": false, "order": 31 },
-        { "id": "venture-vsv-033-tubular-network", "name": "TUBULAR NETWORK", "url": "tubular.network", "desc": "Logistics company that automates the movement of goods with zero emissions via tubular infrastructure", "included": false, "order": 32 },
-        { "id": "venture-vsv-034-voyage-foods", "name": "VOYAGE FOODS", "url": "voyagefoods.com", "desc": "Is a company that makes sustainable, accessible, and delicious foods using natural ingredients and innovative food.", "included": false, "order": 33 },
-        { "id": "venture-vsv-035-yay-lunch", "name": "YAY LUNCH", "url": "yaylunch.com", "desc": "Meal delivery platform with custom-built technology, starting with school lunch", "included": true, "order": 34 },
-        { "id": "venture-vsv-036-zamp", "name": "ZAMP", "url": "zamp.com", "desc": "User-friendly automated sales tax software platform for restaurants, retailers, and omnichannel small- and medium-sized businesses", "included": true, "order": 35 }
+        {
+          "id": "venture-vsv-001-aviary-health",
+          "name": "AVIARY HEALTH",
+          "url": "aviaryhealth.com",
+          "desc": "Recora offers a Cardiac Recovery Program that includes virtual sessions, educational tools, support groups, and a recovery kit.",
+          "included": false,
+          "order": 0
+        },
+        {
+          "id": "venture-vsv-002-avida",
+          "name": "AVIDA",
+          "url": "avida.life",
+          "desc": "Platform that enables creators to launch white-label coaching businesses, leveraging AI-powered tools and support services.",
+          "included": true,
+          "order": 1
+        },
+        {
+          "id": "venture-vsv-003-bellwether-coffee",
+          "name": "BELLWETHER COFFEE",
+          "url": "bellwethercoffee.com",
+          "desc": "Sustainable coffee roasting platform that allows coffee shops to roast beans on-site through a fully electric device and green.",
+          "included": false,
+          "order": 2
+        },
+        {
+          "id": "venture-vsv-004-bizscout",
+          "name": "BIZSCOUT",
+          "url": "bizscout.com",
+          "desc": "Marketplace platform that disrupts M&A of small and medium-sized businesses by providing access to qualified business buyers and.",
+          "included": true,
+          "order": 3
+        },
+        {
+          "id": "venture-vsv-005-black-seed-bagels",
+          "name": "BLACK SEED BAGELS",
+          "url": "blackseedbagels.com",
+          "desc": "Multi-channel bagel brand with an asset light retail footprint",
+          "included": false,
+          "order": 4
+        },
+        {
+          "id": "venture-vsv-006-blue-ocean-barns",
+          "name": "BLUE OCEAN BARNS",
+          "url": "blueoceanbarns.com",
+          "desc": "Cattle methane reduction via the company's proprietary strain of asparagopsis taxaformis (Brominata).",
+          "included": true,
+          "order": 5
+        },
+        {
+          "id": "venture-vsv-007-brand-networks",
+          "name": "BRAND NETWORKS",
+          "url": "bn.co",
+          "desc": "Digital marketing technology company that powers social media enablement for enterprise brands",
+          "included": true,
+          "order": 6
+        },
+        {
+          "id": "venture-vsv-008-campo-grande",
+          "name": "CAMPO GRANDE",
+          "url": "eatcampogrande.com",
+          "desc": "Direct-to-consumer brand that brings unique and premium Spanish food products to the world",
+          "included": true,
+          "order": 7
+        },
+        {
+          "id": "venture-vsv-009-climate-vault",
+          "name": "CLIMATE VAULT",
+          "url": "climatevault.com",
+          "desc": "Carbon dioxide elimination and innovation platform enabling enterprises to fund verified carbon removal projects.",
+          "included": false,
+          "order": 8
+        },
+        {
+          "id": "venture-vsv-010-cove",
+          "name": "COVE",
+          "url": "cove.co",
+          "desc": "Materials science business with the first and only fully biodegradable water bottle that is made from PHA to reduce plastic.",
+          "included": false,
+          "order": 9
+        },
+        {
+          "id": "venture-vsv-011-dispatch-goods",
+          "name": "DISPATCH GOODS",
+          "url": "dispatchgoods.com",
+          "desc": "Reverse logistics platform providing reusable packaging for restaurants and retailers to reduce single-use waste.",
+          "included": false,
+          "order": 10
+        },
+        {
+          "id": "venture-vsv-012-forum3",
+          "name": "FORUM3",
+          "url": "forum3.com",
+          "desc": "Next-generation customer loyalty platform helping brands deepen engagement through digital ownership and rewards.",
+          "included": false,
+          "order": 11
+        },
+        {
+          "id": "venture-vsv-013-freshx",
+          "name": "FRESHX",
+          "url": "getfreshx.com",
+          "desc": "End-to-end SaaS solution automating cold chain logistics from order management through last-mile delivery.",
+          "included": true,
+          "order": 12
+        },
+        {
+          "id": "venture-vsv-014-holobiome",
+          "name": "HOLOBIOME",
+          "url": "holobiome.org",
+          "desc": "Gut microbiome company building a proprietary bacterial data platform for next-generation probiotic therapeutics.",
+          "included": true,
+          "order": 13
+        },
+        {
+          "id": "venture-vsv-015-joopiter",
+          "name": "JOOPITER",
+          "url": "joopiter.com",
+          "desc": "Digital auction platform and marketplace that disrupts existing luxury auction houses",
+          "included": false,
+          "order": 14
+        },
+        {
+          "id": "venture-vsv-016-joy",
+          "name": "JOY",
+          "url": "withjoy.com",
+          "desc": "Is a wedding planning software company that offers a free, all-in-one platform for couples to plan their wedding",
+          "included": false,
+          "order": 15
+        },
+        {
+          "id": "venture-vsv-017-kingdom",
+          "name": "KINGDOM",
+          "url": "kingdomsuperculture.com",
+          "desc": "Biodesign firm that assembles non-genetically engineered microbes for fermented foods and natural products",
+          "included": false,
+          "order": 16
+        },
+        {
+          "id": "venture-vsv-018-lido",
+          "name": "LIDO",
+          "url": "lido.app",
+          "desc": "No-code software platform that enables business professionals to link internal and external sources to create custom analyses and.",
+          "included": false,
+          "order": 17
+        },
+        {
+          "id": "venture-vsv-019-light-labs",
+          "name": "LIGHT LABS",
+          "url": "lightlabs.com",
+          "desc": "Food technology company that disrupts the market for nutritional and product purity testing",
+          "included": true,
+          "order": 18
+        },
+        {
+          "id": "venture-vsv-020-logiwa",
+          "name": "LOGIWA",
+          "url": "logiwa.com",
+          "desc": "Warehouse management software for high volume direct-to-consumer, wholesale, and third-party logistics providers",
+          "included": true,
+          "order": 19
+        },
+        {
+          "id": "venture-vsv-021-mason-dixie",
+          "name": "MASON DIXIE",
+          "url": "masondixiefoods.com",
+          "desc": "Clean-label consumer packaged goods brand providing ready-to-cook bread products using real, additive-free ingredients.",
+          "included": false,
+          "order": 20
+        },
+        {
+          "id": "venture-vsv-022-opopop",
+          "name": "OPOPOP",
+          "url": "opopop.com",
+          "desc": "Direct-to-consumer popcorn brand with a small retail presence",
+          "included": true,
+          "order": 21
+        },
+        {
+          "id": "venture-vsv-023-partanna-united-olive-oil-import-corp",
+          "name": "PARTANNA (UNITED OLIVE OIL IMPORT CORP)",
+          "url": "partannafoods.com",
+          "desc": "High-quality producer and distributor of olives, olive oil, and Italian specialty food products",
+          "included": false,
+          "order": 22
+        },
+        {
+          "id": "venture-vsv-024-pathspot",
+          "name": "PATHSPOT",
+          "url": "pathspot.com",
+          "desc": "Is a health and safety operating system.",
+          "included": true,
+          "order": 23
+        },
+        {
+          "id": "venture-vsv-025-pod-foods",
+          "name": "POD FOODS",
+          "url": "podfoods.co",
+          "desc": "B2B technology platform that disrupts consumer packaged goods distribution to retailers via an asset-lite, virtual logistics model",
+          "included": false,
+          "order": 24
+        },
+        {
+          "id": "venture-vsv-026-resident",
+          "name": "RESIDENT",
+          "url": "meetresident.com",
+          "desc": "Platform that connects chefs, real estate operators, and consumers to create premium, experiential culinary events",
+          "included": false,
+          "order": 25
+        },
+        {
+          "id": "venture-vsv-027-shameless-pets",
+          "name": "SHAMELESS PETS",
+          "url": "shamelesspets.com",
+          "desc": "Pet treat brand that upcycles food waste into healthy pet treats",
+          "included": true,
+          "order": 26
+        },
+        {
+          "id": "venture-vsv-028-skinny-butcher",
+          "name": "SKINNY BUTCHER",
+          "url": "skinnybutcher.com",
+          "desc": "Company started as a plant based crispy chicken CPG brand and pivoted to traditional protein.",
+          "included": false,
+          "order": 27
+        },
+        {
+          "id": "venture-vsv-029-spaarkd",
+          "name": "SPAARKD",
+          "url": "spaarkd.com",
+          "desc": "Creator platform and marketplace for sustainable, customized consumer products",
+          "included": true,
+          "order": 28
+        },
+        {
+          "id": "venture-vsv-030-square-roots",
+          "name": "SQUARE ROOTS",
+          "url": "squarerootsgrow.com",
+          "desc": "The company recreates ideal growing climates from around the world and offers human ingenuity and technology, enabling.",
+          "included": false,
+          "order": 29
+        },
+        {
+          "id": "venture-vsv-031-sway-innovation",
+          "name": "SWAY INNOVATION",
+          "url": "swaythefuture.com",
+          "desc": "Seaweed-based packaging that disrupts the single-use plastic market",
+          "included": false,
+          "order": 30
+        },
+        {
+          "id": "venture-vsv-032-the-desire-company",
+          "name": "THE DESIRE COMPANY",
+          "url": "thedesirecompany.com",
+          "desc": "A complete expert product education solution.",
+          "included": false,
+          "order": 31
+        },
+        {
+          "id": "venture-vsv-033-tubular-network",
+          "name": "TUBULAR NETWORK",
+          "url": "tubular.network",
+          "desc": "Logistics company that automates the movement of goods with zero emissions via tubular infrastructure",
+          "included": false,
+          "order": 32
+        },
+        {
+          "id": "venture-vsv-034-voyage-foods",
+          "name": "VOYAGE FOODS",
+          "url": "voyagefoods.com",
+          "desc": "Is a company that makes sustainable, accessible, and delicious foods using natural ingredients and innovative food.",
+          "included": false,
+          "order": 33
+        },
+        {
+          "id": "venture-vsv-035-yay-lunch",
+          "name": "YAY LUNCH",
+          "url": "yaylunch.com",
+          "desc": "Meal delivery platform with custom-built technology, starting with school lunch",
+          "included": true,
+          "order": 34
+        },
+        {
+          "id": "venture-vsv-036-zamp",
+          "name": "ZAMP",
+          "url": "zamp.com",
+          "desc": "User-friendly automated sales tax software platform for restaurants, retailers, and omnichannel small- and medium-sized businesses",
+          "included": true,
+          "order": 35
+        }
       ]
     },
     {
@@ -220,45 +1592,725 @@
       "label": "VAAI – Valor",
       "pptLabel": "VAAI COMPANIES – VALOR",
       "companies": [
-        { "id": "vaai-valor-001-8090-solutions", "name": "8090 SOLUTIONS", "url": "8090.ai", "desc": "8090 is an AI-native software development platform founded by Chamath Palihapitiya.", "included": true, "order": 0 },
-        { "id": "vaai-valor-002-agwa", "name": "AGWA", "url": "agwafarm.com", "desc": "Is a developer of ai-enabled, autonomous agriculture devices designed to grow fresh vegetables, herbs, and fruits on-site.", "included": true, "order": 1 },
-        { "id": "vaai-valor-003-alta-resource-technologies", "name": "ALTA RESOURCE TECHNOLOGIES", "url": "altatech.io", "desc": "Alta is a technology platform for industrial-scale separation and refinement of ore and e-waste into rare earth elements (\"REEs\").", "included": true, "order": 2 },
-        { "id": "vaai-valor-004-aria-networks", "name": "ARIA NETWORKS", "url": "arianetworks.com", "desc": "", "included": false, "order": 3 },
-        { "id": "vaai-valor-005-assured", "name": "ASSURED", "url": "assured.com", "desc": "Is a software-as-a-service platform that digitizes and automates claims processing for some of the largest p&c insurers.", "included": true, "order": 4 },
-        { "id": "vaai-valor-006-asteria-film", "name": "ASTERIA FILM", "url": "asteriafilm.com", "desc": "Asteria is an AI-native film production company designed to help studios and creators adopt generative video technology in a way.", "included": true, "order": 5 },
-        { "id": "vaai-valor-007-athena", "name": "ATHENA", "url": "athenamoney.co", "desc": "", "included": false, "order": 6 },
-        { "id": "vaai-valor-008-bedrock-robotics", "name": "BEDROCK ROBOTICS", "url": "bedrockrobotics.com", "desc": "Developer of a full stack autonomy solution for construction vehicles", "included": true, "order": 7 },
-        { "id": "vaai-valor-009-cathedral", "name": "CATHEDRAL", "url": "cathedral.com", "desc": "Is a defense technology company applying frontier artificial intelligence (“ai”) to cybersecurity at scale.", "included": true, "order": 8 },
-        { "id": "vaai-valor-010-celero", "name": "CELERO", "url": "celero.inc", "desc": "Is creating a next-generation coherent optical digital signal processor (“dsp”), purpose-built with an innovative and.", "included": true, "order": 9 },
-        { "id": "vaai-valor-011-cerebras-systems", "name": "CEREBRAS SYSTEMS", "url": "cerebras.ai", "desc": "Full-stack developer and provider of AI compute for training and inference workloads", "included": true, "order": 10 },
-        { "id": "vaai-valor-012-conquestlabs", "name": "CONQUESTLABS", "url": "conquestlabs.com", "desc": "Conquest Labs (“Conquest” or the “Company”) is developing a new therapeutic paradigm called hyperpolypharmacy (“HPPh”) by using.", "included": true, "order": 11 },
-        { "id": "vaai-valor-013-cspeed-inc", "name": "CSPEED INC", "url": "cspeed.io", "desc": "Developing a disruptive optical connectivity solution for high-performance computing, using silicon photonics, integrated lasers,.", "included": true, "order": 12 },
-        { "id": "vaai-valor-014-decart", "name": "DECART", "url": "decart.ai", "desc": "Is a developer real-time ai world models and the infrastructure required to run them.", "included": true, "order": 13 },
-        { "id": "vaai-valor-015-dominion-dynamics", "name": "DOMINION DYNAMICS", "url": "defendthedominion.com", "desc": "", "included": false, "order": 14 },
-        { "id": "vaai-valor-016-effective-ai-labs", "name": "EFFECTIVE AI LABS", "url": "effectiveailabs.com", "desc": "Is developing agentic ai coworkers initially for insurance underwriting and claims processing.", "included": true, "order": 15 },
-        { "id": "vaai-valor-017-element-labs", "name": "ELEMENT LABS", "url": "elmnt.com", "desc": "Bringing system level solutions for hyperscalers and CSPs that are optimized for high performance and high efficiency.", "included": true, "order": 16 },
-        { "id": "vaai-valor-018-fireworks-ai", "name": "FIREWORKS AI", "url": "fireworks.ai", "desc": "", "included": false, "order": 17 },
-        { "id": "vaai-valor-019-flow-engineering", "name": "FLOW ENGINEERING", "url": "flowengineering.com", "desc": "AI-native system of record for hardware engineering teams managing complex design and documentation workflows.", "included": true, "order": 18 },
-        { "id": "vaai-valor-020-general-welfare", "name": "GENERAL WELFARE", "url": "gw.inc", "desc": "AI-native fraud prevention platform specifically designed for US federal benefits programs", "included": true, "order": 19 },
-        { "id": "vaai-valor-021-heron-power", "name": "HERON POWER", "url": "heronpower.com", "desc": "Developer of technology to become the end-to-end electrical infrastructure innovator alleviating critical bottlenecks that impede.", "included": true, "order": 20 },
-        { "id": "vaai-valor-022-loop", "name": "LOOP", "url": "loop.com", "desc": "Logistics payments platform automating the invoice-to-payment cycle for freight brokers and carriers.", "included": true, "order": 21 },
-        { "id": "vaai-valor-023-lumilens", "name": "LUMILENS", "url": "lumilens.com", "desc": "Developer of silicon-photonics interconnects (NPO/CPO/pluggables) for scaling AI compute — higher bandwidth density and lower.", "included": true, "order": 22 },
-        { "id": "vaai-valor-024-marlowecompute", "name": "MARLOWECOMPUTE", "url": "marlowecompute.ai", "desc": "", "included": false, "order": 23 },
-        { "id": "vaai-valor-025-matic", "name": "MATIC", "url": "maticrobots.com", "desc": "(or the \"company\") is a developer of home robots designed to offer autonomous vision-based machines that save people time.", "included": true, "order": 24 },
-        { "id": "vaai-valor-026-newlimit", "name": "NEWLIMIT", "url": "newlimit.com", "desc": "(or the “company”) is a biotechnology company developing epigenetic reprogramming therapies to treat age-related.", "included": true, "order": 25 },
-        { "id": "vaai-valor-027-nova-sky-stories", "name": "NOVA SKY STORIES", "url": "novaskystories.com", "desc": "Global leader in drone light show entertainment, serving as a vertically integrated manufacturer and operator for lightweight,.", "included": true, "order": 26 },
-        { "id": "vaai-valor-028-osmo-labs", "name": "OSMO LABS", "url": "osmo.ai", "desc": "Building a platform to digitize scent and provide computers with a sense of smell to tackle the complex art of fragrance, with.", "included": true, "order": 27 },
-        { "id": "vaai-valor-029-overland-ai", "name": "OVERLAND AI", "url": "overland.ai", "desc": "Overland is a ground autonomy systems developer building vehicle agnostic software and hardware that can deliver autonomous.", "included": true, "order": 28 },
-        { "id": "vaai-valor-030-positron", "name": "POSITRON", "url": "positron.ai", "desc": "Developer of inference chips for transformer-based AI models", "included": true, "order": 29 },
-        { "id": "vaai-valor-031-roboflow", "name": "ROBOFLOW", "url": "roboflow.com", "desc": "Is an open-source developer platform that aims to “make the world programmable” by enabling customers to build and.", "included": true, "order": 30 },
-        { "id": "vaai-valor-032-sable-ai", "name": "SABLE AI", "url": "withsable.com", "desc": "Sable's technology combines real-time browser navigation, computer vision, and voice capabilities to run live product.", "included": true, "order": 31 },
-        { "id": "vaai-valor-033-sentra", "name": "SENTRA", "url": "sentra.io", "desc": "Is an ai-powered data security platform that enables enterprises to discover, classify, and protect sensitive data across.", "included": true, "order": 32 },
-        { "id": "vaai-valor-034-sifive", "name": "SIFIVE", "url": "sifive.com", "desc": "", "included": false, "order": 33 },
-        { "id": "vaai-valor-035-silicon-data", "name": "SILICON DATA", "url": "silicondata.com", "desc": "Real-time GPU pricing, performance benchmarking, and market intelligence platform for AI infrastructure buyers.", "included": true, "order": 34 },
-        { "id": "vaai-valor-036-tailshift", "name": "TAILSHIFT", "url": "tailshift.ai", "desc": "(fka unwind) is an ai-enabled managing general underwriter (mgu) focused on legacy (lpt, adc, acquisition) and.", "included": true, "order": 35 },
-        { "id": "vaai-valor-037-terra", "name": "TERRA", "url": "terraindustries.co", "desc": "", "included": false, "order": 36 },
-        { "id": "vaai-valor-038-valar-atomics", "name": "VALAR ATOMICS", "url": "valaratomics.com", "desc": "Vertically integrated nuclear energy company developing next-generation fission reactors for clean baseload power.", "included": true, "order": 37 },
-        { "id": "vaai-valor-039-watney-robotics", "name": "WATNEY ROBOTICS", "url": "watneyrobotics.com", "desc": "Has developed a dexterous, teleoperated robotic solution – encompassing both hardware and software – designed to.", "included": true, "order": 38 }
+        {
+          "id": "vaai-valor-001-8090-solutions",
+          "name": "8090 SOLUTIONS",
+          "url": "8090.ai",
+          "desc": "8090 is an AI-native software development platform founded by Chamath Palihapitiya.",
+          "included": true,
+          "order": 0
+        },
+        {
+          "id": "vaai-valor-002-agwa",
+          "name": "AGWA",
+          "url": "agwafarm.com",
+          "desc": "Is a developer of ai-enabled, autonomous agriculture devices designed to grow fresh vegetables, herbs, and fruits on-site.",
+          "included": true,
+          "order": 1
+        },
+        {
+          "id": "vaai-valor-003-alta-resource-technologies",
+          "name": "ALTA RESOURCE TECHNOLOGIES",
+          "url": "altatech.io",
+          "desc": "Alta is a technology platform for industrial-scale separation and refinement of ore and e-waste into rare earth elements (\"REEs\").",
+          "included": true,
+          "order": 2
+        },
+        {
+          "id": "vaai-valor-004-aria-networks",
+          "name": "ARIA NETWORKS",
+          "url": "arianetworks.com",
+          "desc": "",
+          "included": false,
+          "order": 3
+        },
+        {
+          "id": "vaai-valor-005-assured",
+          "name": "ASSURED",
+          "url": "assured.com",
+          "desc": "Is a software-as-a-service platform that digitizes and automates claims processing for some of the largest p&c insurers.",
+          "included": true,
+          "order": 4
+        },
+        {
+          "id": "vaai-valor-006-asteria-film",
+          "name": "ASTERIA FILM",
+          "url": "asteriafilm.com",
+          "desc": "Asteria is an AI-native film production company designed to help studios and creators adopt generative video technology in a way.",
+          "included": true,
+          "order": 5
+        },
+        {
+          "id": "vaai-valor-007-athena",
+          "name": "ATHENA",
+          "url": "athenamoney.co",
+          "desc": "",
+          "included": false,
+          "order": 6
+        },
+        {
+          "id": "vaai-valor-008-bedrock-robotics",
+          "name": "BEDROCK ROBOTICS",
+          "url": "bedrockrobotics.com",
+          "desc": "Developer of a full stack autonomy solution for construction vehicles",
+          "included": true,
+          "order": 7
+        },
+        {
+          "id": "vaai-valor-009-cathedral",
+          "name": "CATHEDRAL",
+          "url": "cathedral.com",
+          "desc": "Is a defense technology company applying frontier artificial intelligence (“ai”) to cybersecurity at scale.",
+          "included": true,
+          "order": 8
+        },
+        {
+          "id": "vaai-valor-010-celero",
+          "name": "CELERO",
+          "url": "celero.inc",
+          "desc": "Is creating a next-generation coherent optical digital signal processor (“dsp”), purpose-built with an innovative and.",
+          "included": true,
+          "order": 9
+        },
+        {
+          "id": "vaai-valor-011-cerebras-systems",
+          "name": "CEREBRAS SYSTEMS",
+          "url": "cerebras.ai",
+          "desc": "Full-stack developer and provider of AI compute for training and inference workloads",
+          "included": true,
+          "order": 10
+        },
+        {
+          "id": "vaai-valor-012-conquestlabs",
+          "name": "CONQUESTLABS",
+          "url": "conquestlabs.com",
+          "desc": "Conquest Labs (“Conquest” or the “Company”) is developing a new therapeutic paradigm called hyperpolypharmacy (“HPPh”) by using.",
+          "included": true,
+          "order": 11
+        },
+        {
+          "id": "vaai-valor-013-cspeed-inc",
+          "name": "CSPEED INC",
+          "url": "cspeed.io",
+          "desc": "Developing a disruptive optical connectivity solution for high-performance computing, using silicon photonics, integrated lasers,.",
+          "included": true,
+          "order": 12
+        },
+        {
+          "id": "vaai-valor-014-decart",
+          "name": "DECART",
+          "url": "decart.ai",
+          "desc": "Is a developer real-time ai world models and the infrastructure required to run them.",
+          "included": true,
+          "order": 13
+        },
+        {
+          "id": "vaai-valor-015-dominion-dynamics",
+          "name": "DOMINION DYNAMICS",
+          "url": "defendthedominion.com",
+          "desc": "",
+          "included": false,
+          "order": 14
+        },
+        {
+          "id": "vaai-valor-016-effective-ai-labs",
+          "name": "EFFECTIVE AI LABS",
+          "url": "effectiveailabs.com",
+          "desc": "Is developing agentic ai coworkers initially for insurance underwriting and claims processing.",
+          "included": true,
+          "order": 15
+        },
+        {
+          "id": "vaai-valor-017-element-labs",
+          "name": "ELEMENT LABS",
+          "url": "elmnt.com",
+          "desc": "Bringing system level solutions for hyperscalers and CSPs that are optimized for high performance and high efficiency.",
+          "included": true,
+          "order": 16
+        },
+        {
+          "id": "vaai-valor-018-fireworks-ai",
+          "name": "FIREWORKS AI",
+          "url": "fireworks.ai",
+          "desc": "",
+          "included": false,
+          "order": 17
+        },
+        {
+          "id": "vaai-valor-019-flow-engineering",
+          "name": "FLOW ENGINEERING",
+          "url": "flowengineering.com",
+          "desc": "AI-native system of record for hardware engineering teams managing complex design and documentation workflows.",
+          "included": true,
+          "order": 18
+        },
+        {
+          "id": "vaai-valor-020-general-welfare",
+          "name": "GENERAL WELFARE",
+          "url": "gw.inc",
+          "desc": "AI-native fraud prevention platform specifically designed for US federal benefits programs",
+          "included": true,
+          "order": 19
+        },
+        {
+          "id": "vaai-valor-021-heron-power",
+          "name": "HERON POWER",
+          "url": "heronpower.com",
+          "desc": "Developer of technology to become the end-to-end electrical infrastructure innovator alleviating critical bottlenecks that impede.",
+          "included": true,
+          "order": 20
+        },
+        {
+          "id": "vaai-valor-022-loop",
+          "name": "LOOP",
+          "url": "loop.com",
+          "desc": "Logistics payments platform automating the invoice-to-payment cycle for freight brokers and carriers.",
+          "included": true,
+          "order": 21
+        },
+        {
+          "id": "vaai-valor-023-lumilens",
+          "name": "LUMILENS",
+          "url": "lumilens.com",
+          "desc": "Developer of silicon-photonics interconnects (NPO/CPO/pluggables) for scaling AI compute — higher bandwidth density and lower.",
+          "included": true,
+          "order": 22
+        },
+        {
+          "id": "vaai-valor-024-marlowecompute",
+          "name": "MARLOWECOMPUTE",
+          "url": "marlowecompute.ai",
+          "desc": "",
+          "included": false,
+          "order": 23
+        },
+        {
+          "id": "vaai-valor-025-matic",
+          "name": "MATIC",
+          "url": "maticrobots.com",
+          "desc": "(or the \"company\") is a developer of home robots designed to offer autonomous vision-based machines that save people time.",
+          "included": true,
+          "order": 24
+        },
+        {
+          "id": "vaai-valor-026-newlimit",
+          "name": "NEWLIMIT",
+          "url": "newlimit.com",
+          "desc": "(or the “company”) is a biotechnology company developing epigenetic reprogramming therapies to treat age-related.",
+          "included": true,
+          "order": 25
+        },
+        {
+          "id": "vaai-valor-027-nova-sky-stories",
+          "name": "NOVA SKY STORIES",
+          "url": "novaskystories.com",
+          "desc": "Global leader in drone light show entertainment, serving as a vertically integrated manufacturer and operator for lightweight,.",
+          "included": true,
+          "order": 26
+        },
+        {
+          "id": "vaai-valor-028-osmo-labs",
+          "name": "OSMO LABS",
+          "url": "osmo.ai",
+          "desc": "Building a platform to digitize scent and provide computers with a sense of smell to tackle the complex art of fragrance, with.",
+          "included": true,
+          "order": 27
+        },
+        {
+          "id": "vaai-valor-029-overland-ai",
+          "name": "OVERLAND AI",
+          "url": "overland.ai",
+          "desc": "Overland is a ground autonomy systems developer building vehicle agnostic software and hardware that can deliver autonomous.",
+          "included": true,
+          "order": 28
+        },
+        {
+          "id": "vaai-valor-030-positron",
+          "name": "POSITRON",
+          "url": "positron.ai",
+          "desc": "Developer of inference chips for transformer-based AI models",
+          "included": true,
+          "order": 29
+        },
+        {
+          "id": "vaai-valor-031-roboflow",
+          "name": "ROBOFLOW",
+          "url": "roboflow.com",
+          "desc": "Is an open-source developer platform that aims to “make the world programmable” by enabling customers to build and.",
+          "included": true,
+          "order": 30
+        },
+        {
+          "id": "vaai-valor-032-sable-ai",
+          "name": "SABLE AI",
+          "url": "withsable.com",
+          "desc": "Sable's technology combines real-time browser navigation, computer vision, and voice capabilities to run live product.",
+          "included": true,
+          "order": 31
+        },
+        {
+          "id": "vaai-valor-033-sentra",
+          "name": "SENTRA",
+          "url": "sentra.io",
+          "desc": "Is an ai-powered data security platform that enables enterprises to discover, classify, and protect sensitive data across.",
+          "included": true,
+          "order": 32
+        },
+        {
+          "id": "vaai-valor-034-sifive",
+          "name": "SIFIVE",
+          "url": "sifive.com",
+          "desc": "",
+          "included": false,
+          "order": 33
+        },
+        {
+          "id": "vaai-valor-035-silicon-data",
+          "name": "SILICON DATA",
+          "url": "silicondata.com",
+          "desc": "Real-time GPU pricing, performance benchmarking, and market intelligence platform for AI infrastructure buyers.",
+          "included": true,
+          "order": 34
+        },
+        {
+          "id": "vaai-valor-036-tailshift",
+          "name": "TAILSHIFT",
+          "url": "tailshift.ai",
+          "desc": "(fka unwind) is an ai-enabled managing general underwriter (mgu) focused on legacy (lpt, adc, acquisition) and.",
+          "included": true,
+          "order": 35
+        },
+        {
+          "id": "vaai-valor-037-terra",
+          "name": "TERRA",
+          "url": "terraindustries.co",
+          "desc": "",
+          "included": false,
+          "order": 36
+        },
+        {
+          "id": "vaai-valor-038-valar-atomics",
+          "name": "VALAR ATOMICS",
+          "url": "valaratomics.com",
+          "desc": "Vertically integrated nuclear energy company developing next-generation fission reactors for clean baseload power.",
+          "included": true,
+          "order": 37
+        },
+        {
+          "id": "vaai-valor-039-watney-robotics",
+          "name": "WATNEY ROBOTICS",
+          "url": "watneyrobotics.com",
+          "desc": "Has developed a dexterous, teleoperated robotic solution – encompassing both hardware and software – designed to.",
+          "included": true,
+          "order": 38
+        }
+      ]
+    },
+    {
+      "id": "seed-valor",
+      "label": "Seed - Valor",
+      "pptLabel": "SEED COMPANIES – VALOR",
+      "companies": [
+        {
+          "id": "seed-valor-001-aalo",
+          "name": "AALO",
+          "url": "aalo.com",
+          "desc": "Developing advanced nuclear fission reactors to provide carbon-free, reliable power.",
+          "included": true,
+          "order": 0
+        },
+        {
+          "id": "seed-valor-002-alcor-labs",
+          "name": "ALCOR-LABS",
+          "url": "alcor-labs.com",
+          "desc": "",
+          "included": true,
+          "order": 1
+        },
+        {
+          "id": "seed-valor-003-alljoined",
+          "name": "ALLJOINED",
+          "url": "alljoined.com",
+          "desc": "Alljoined is building upon decades of brain scanning and reconstruction research",
+          "included": true,
+          "order": 2
+        },
+        {
+          "id": "seed-valor-004-amphiform",
+          "name": "AMPHIFORM",
+          "url": "amphiform.com",
+          "desc": "",
+          "included": true,
+          "order": 3
+        },
+        {
+          "id": "seed-valor-005-arix",
+          "name": "ARIX",
+          "url": "arix-tech.com",
+          "desc": "Developer of a robotics and data analytics platform designed for pipeline corrosion detection and management",
+          "included": false,
+          "order": 4
+        },
+        {
+          "id": "seed-valor-006-ark-robotics",
+          "name": "ARK ROBOTICS",
+          "url": "ark-robotics.com",
+          "desc": "",
+          "included": true,
+          "order": 5
+        },
+        {
+          "id": "seed-valor-007-aspect-health",
+          "name": "ASPECT HEALTH",
+          "url": "aspect-health.com",
+          "desc": "Aspect Health is an AI-driven digital healthcare platform that manages chronic conditions through real-time monitoring and personalized lifestyle modifications.",
+          "included": true,
+          "order": 6
+        },
+        {
+          "id": "seed-valor-008-axiome",
+          "name": "AXIOME",
+          "url": "axiome.bio",
+          "desc": "Developer of an instrument leveraging electronic biosensors to sequence DNA and proteins",
+          "included": false,
+          "order": 7
+        },
+        {
+          "id": "seed-valor-009-bedrock-robotics",
+          "name": "BEDROCK ROBOTICS",
+          "url": "bedrockrobotics.com",
+          "desc": "Developer of a full stack autonomy solution for construction vehicles",
+          "included": true,
+          "order": 8
+        },
+        {
+          "id": "seed-valor-010-biography",
+          "name": "BIOGRAPHY",
+          "url": "biography.industries",
+          "desc": "Biography Industries is building a suite of consumer AI agents to help users with scheduling, dating, networking and other social tasks on top of a unified data layer and social graph.",
+          "included": true,
+          "order": 9
+        },
+        {
+          "id": "seed-valor-011-blitz",
+          "name": "BLITZ",
+          "url": "blitz.inc",
+          "desc": "",
+          "included": true,
+          "order": 10
+        },
+        {
+          "id": "seed-valor-012-botanix-labs",
+          "name": "BOTANIX LABS",
+          "url": "botanixlabs.com",
+          "desc": "Developer of a decentralized EVM-equivalent Layer 2 on top of Bitcoin",
+          "included": true,
+          "order": 11
+        },
+        {
+          "id": "seed-valor-013-braintrust",
+          "name": "BRAINTRUST",
+          "url": "braintrust.dev",
+          "desc": "End-to-end software development platform for building AI applications",
+          "included": true,
+          "order": 12
+        },
+        {
+          "id": "seed-valor-014-cambrium",
+          "name": "CAMBRIUM",
+          "url": "cambrium.bio",
+          "desc": "Platform leveraging generative AI to design and engineer biomaterials to provide sustantainable and performant alternatives across industries like skincare, nutraceuticals and coatings.",
+          "included": false,
+          "order": 13
+        },
+        {
+          "id": "seed-valor-015-castle",
+          "name": "CASTLE",
+          "url": "getcastle.com",
+          "desc": "Homeowner bill-pay mobile app and AI-enabled agent",
+          "included": true,
+          "order": 14
+        },
+        {
+          "id": "seed-valor-016-cathedral",
+          "name": "CATHEDRAL",
+          "url": "cathedral.com",
+          "desc": "Cathedral is a defense technology company applying frontier artificial intelligence (“AI”) to cybersecurity at scale. Today, U.S. cyber capabilities are constrained by a reliance on scarce, highly skilled human operators who execute manual, bespoke processes in limited volume. Cathedral is positioned to be disruptive on both product and cost to help solve this constraint. The Company’s architecture is designed to solve the human constraint via compute, delivering this via purpose-built data center infrastructure that would drive a significant cost advantage.",
+          "included": true,
+          "order": 15
+        },
+        {
+          "id": "seed-valor-017-clado",
+          "name": "CLADO",
+          "url": "freesolo.co",
+          "desc": "",
+          "included": true,
+          "order": 16
+        },
+        {
+          "id": "seed-valor-018-dispatch",
+          "name": "DISPATCH",
+          "url": "dispatch.io",
+          "desc": "Integration Platform-as-a-Service for ingesting and propagating client data for RIAs",
+          "included": true,
+          "order": 17
+        },
+        {
+          "id": "seed-valor-019-drover-labs",
+          "name": "DROVER LABS",
+          "url": "droverlabs.ai",
+          "desc": "",
+          "included": true,
+          "order": 18
+        },
+        {
+          "id": "seed-valor-020-engram",
+          "name": "ENGRAM",
+          "url": "engram.co",
+          "desc": "",
+          "included": true,
+          "order": 19
+        },
+        {
+          "id": "seed-valor-021-extropic-ai",
+          "name": "EXTROPIC AI",
+          "url": "extropic.ai",
+          "desc": "Full-stack solution leveraging principles of thermodynamic computing and physics-based AI",
+          "included": true,
+          "order": 20
+        },
+        {
+          "id": "seed-valor-022-fastino-labs",
+          "name": "FASTINO LABS",
+          "url": "fastino.ai",
+          "desc": "Developer of enterprise-ready small language models enabling companies to self-train and self-service their own SLMs",
+          "included": true,
+          "order": 21
+        },
+        {
+          "id": "seed-valor-023-frist",
+          "name": "FRIST",
+          "url": "frist.ai",
+          "desc": "",
+          "included": true,
+          "order": 22
+        },
+        {
+          "id": "seed-valor-024-fundamental",
+          "name": "FUNDAMENTAL",
+          "url": "fundamental.tech",
+          "desc": "Fundamental is building a tabular foundation model that can - unlike current models - reason across new data or tabular concepts, universalize, and avoid time-intensive fine-tuning",
+          "included": true,
+          "order": 23
+        },
+        {
+          "id": "seed-valor-025-hedral",
+          "name": "HEDRAL",
+          "url": "hedral.co",
+          "desc": "AI-enabled structural engineering platform for industrial and government buildings",
+          "included": true,
+          "order": 24
+        },
+        {
+          "id": "seed-valor-026-highlight",
+          "name": "HIGHLIGHT",
+          "url": "highlightai.com",
+          "desc": "Contextual Search and Prompting Engine",
+          "included": true,
+          "order": 25
+        },
+        {
+          "id": "seed-valor-027-instinct-robotics",
+          "name": "INSTINCT ROBOTICS",
+          "url": "instinct-robotics.com",
+          "desc": "",
+          "included": true,
+          "order": 26
+        },
+        {
+          "id": "seed-valor-028-judgment-labs",
+          "name": "JUDGMENT LABS",
+          "url": "judgmentlabs.ai",
+          "desc": "",
+          "included": true,
+          "order": 27
+        },
+        {
+          "id": "seed-valor-029-kovari",
+          "name": "KOVARI",
+          "url": "kovari-industries.com",
+          "desc": "",
+          "included": true,
+          "order": 28
+        },
+        {
+          "id": "seed-valor-030-krepling",
+          "name": "KREPLING",
+          "url": "krepling.com",
+          "desc": "No-code e-commerce workflows platform and infrastructure layer that integrates with a merchant’s tech stack,",
+          "included": true,
+          "order": 29
+        },
+        {
+          "id": "seed-valor-031-link-mobile",
+          "name": "LINK MOBILE",
+          "url": "link.mobi",
+          "desc": "Data platform for healthcare providers",
+          "included": false,
+          "order": 30
+        },
+        {
+          "id": "seed-valor-032-lumina",
+          "name": "LUMINA",
+          "url": "luminatech.co",
+          "desc": "Designer and manufacturer of electric construction vehicles, beginning with a dozer",
+          "included": true,
+          "order": 31
+        },
+        {
+          "id": "seed-valor-033-magrathea",
+          "name": "MAGRATHEA",
+          "url": "magratheametals.com",
+          "desc": "Developing an innovative industrial process for producing magnesium metal from seawater and brines",
+          "included": true,
+          "order": 32
+        },
+        {
+          "id": "seed-valor-034-mango",
+          "name": "MANGO",
+          "url": "mangomicro.com",
+          "desc": "Mango is an LA-based hardware automation technology company, working to develop microbial quality control systems for the pharmaceutical industry.",
+          "included": false,
+          "order": 33
+        },
+        {
+          "id": "seed-valor-035-midas",
+          "name": "MIDAS",
+          "url": "trymidas.ai",
+          "desc": "",
+          "included": true,
+          "order": 34
+        },
+        {
+          "id": "seed-valor-036-olo-din",
+          "name": "OLO DIN",
+          "url": "temp.olodin.com",
+          "desc": "",
+          "included": true,
+          "order": 35
+        },
+        {
+          "id": "seed-valor-037-onodrim",
+          "name": "ONODRIM",
+          "url": "onodrim.com",
+          "desc": "European infrastructure and product company focused initially on countries close to the Russian border.",
+          "included": true,
+          "order": 36
+        },
+        {
+          "id": "seed-valor-038-overpotential",
+          "name": "OVERPOTENTIAL",
+          "url": "overpotential.com",
+          "desc": "",
+          "included": true,
+          "order": 37
+        },
+        {
+          "id": "seed-valor-039-paradigm-evergreen",
+          "name": "PARADIGM EVERGREEN",
+          "url": "geteeva.com",
+          "desc": "",
+          "included": true,
+          "order": 38
+        },
+        {
+          "id": "seed-valor-040-parallax",
+          "name": "PARALLAX",
+          "url": "temp.parallax.com",
+          "desc": "",
+          "included": true,
+          "order": 39
+        },
+        {
+          "id": "seed-valor-041-pattern-biosciences",
+          "name": "PATTERN BIOSCIENCES",
+          "url": "patternbio.com",
+          "desc": "Pattern Biosciences is building a “sense, compute, cure” biocomputing platform to enable the delivery of therapeutics with more specificity, more potency, and less residual toxicity.",
+          "included": true,
+          "order": 40
+        },
+        {
+          "id": "seed-valor-042-primitive-instruments",
+          "name": "PRIMITIVE INSTRUMENTS",
+          "url": "primitive.tech",
+          "desc": "",
+          "included": true,
+          "order": 41
+        },
+        {
+          "id": "seed-valor-043-prodex-labs",
+          "name": "PRODEX LABS",
+          "url": "prodexlabs.com",
+          "desc": "",
+          "included": true,
+          "order": 42
+        },
+        {
+          "id": "seed-valor-044-ragie-ai",
+          "name": "RAGIE.AI",
+          "url": "ragie.ai",
+          "desc": "Developer of a RAG-as-a-service platform",
+          "included": true,
+          "order": 43
+        },
+        {
+          "id": "seed-valor-045-spear-street",
+          "name": "SPEAR STREET",
+          "url": "temp.spearstreet.com",
+          "desc": "",
+          "included": true,
+          "order": 44
+        },
+        {
+          "id": "seed-valor-046-terra",
+          "name": "TERRA",
+          "url": "terraindustries.co",
+          "desc": "",
+          "included": true,
+          "order": 45
+        },
+        {
+          "id": "seed-valor-047-tric-robotics",
+          "name": "TRIC ROBOTICS",
+          "url": "tricrobotics.com",
+          "desc": "Agricultural technology company developing autonomous agricultural robotic systems that perform vital crop services, such as planting, weeding, pesticide treatment, and harvesting",
+          "included": true,
+          "order": 46
+        },
+        {
+          "id": "seed-valor-048-upliftmicrohome",
+          "name": "UPLIFTMICROHOME",
+          "url": "upliftmicrohome.com",
+          "desc": "",
+          "included": true,
+          "order": 47
+        },
+        {
+          "id": "seed-valor-049-vigil",
+          "name": "VIGIL",
+          "url": "vigillabs.ai",
+          "desc": "",
+          "included": true,
+          "order": 48
+        },
+        {
+          "id": "seed-valor-050-watney-robotics",
+          "name": "WATNEY ROBOTICS",
+          "url": "watneyrobotics.com",
+          "desc": "Watney Robotics has developed a dexterous, teleoperated robotic solution – encompassing both hardware and software – designed to assist businesses with repetitive, low-skill tasks typically handled by hourly wage workers.",
+          "included": true,
+          "order": 49
+        }
       ]
     }
   ]

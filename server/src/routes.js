@@ -19,6 +19,20 @@ router.get('/data', (req, res) => {
   res.json(getData());
 });
 
+// ─── SECTIONS ───────────────────────────────────────────────────────────────
+router.post('/sections', async (req, res) => {
+  const data = getData();
+  const { id, label, pptLabel } = req.body || {};
+  if (!id || !label) return res.status(400).json({ error: 'id and label are required' });
+  if (data.sections.some((s) => s.id === id)) {
+    return res.status(409).json({ error: `Section already exists: ${id}` });
+  }
+  const section = { id, label, pptLabel: pptLabel || label.toUpperCase(), companies: [] };
+  data.sections.push(section);
+  await saveAndPersist();
+  res.status(201).json(section);
+});
+
 // ─── DECK SETTINGS ──────────────────────────────────────────────────────────
 router.put('/deck-settings', async (req, res) => {
   const data = getData();
