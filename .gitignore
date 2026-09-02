@@ -25,3 +25,7 @@ sync_updates_scratch.json
 sync_ambiguous_scratch.json
 sync_notfound_scratch.json
 committed_seed_check.json
+vaai_deck_scratch/
+vaai_deck_extracted.json
+app_vaai_scratch.json
+vaai_diffs_scratch.json
