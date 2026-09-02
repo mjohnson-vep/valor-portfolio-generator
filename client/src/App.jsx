@@ -7,6 +7,7 @@ import StatsBar from './components/StatsBar';
 import MainHeader from './components/MainHeader';
 import CompanyGrid from './components/CompanyGrid';
 import ImportModal from './components/ImportModal';
+import PasswordGate from './components/PasswordGate';
 
 export default function App() {
   const {
@@ -14,6 +15,8 @@ export default function App() {
     deckSettings,
     loading,
     error,
+    authRequired,
+    retryLoad,
     updateDeckSetting,
     addCompany,
     updateCompany,
@@ -42,6 +45,10 @@ export default function App() {
     if (error && sections) showStatus(`Couldn't save your last change: ${error}`, 'error');
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [error]);
+
+  if (authRequired) {
+    return <PasswordGate onUnlocked={retryLoad} />;
+  }
 
   if (loading) {
     return (
@@ -82,8 +89,12 @@ export default function App() {
       }, 100);
       showStatus('✓ Download started!', 'success');
     } catch (err) {
-      showStatus('Error generating file. Check console for details.', 'error');
-      console.error(err);
+      if (err.isAuthError) {
+        retryLoad(); // re-triggers the data fetch, which will surface the password gate
+      } else {
+        showStatus('Error generating file. Check console for details.', 'error');
+        console.error(err);
+      }
     } finally {
       setGenerating(false);
     }

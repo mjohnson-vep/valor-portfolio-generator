@@ -601,3 +601,81 @@ header {
 /* ─── ICON SVGs ──────────────────────────────────────── */
 svg { vertical-align: middle; }
 .icon { display: inline-block; flex-shrink: 0; }
+
+/* ─── PASSWORD GATE ──────────────────────────────────── */
+.password-gate {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--blue);
+}
+
+.password-gate-card {
+  background: white;
+  border-radius: 10px;
+  padding: 40px 36px;
+  width: 340px;
+  text-align: center;
+  box-shadow: var(--shadow-lg);
+}
+
+.password-gate-logo {
+  width: 32px;
+  height: 32px;
+  margin: 0 auto 16px;
+}
+
+.password-gate-logo svg path { fill: var(--blue); }
+
+.password-gate-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--grey-900);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.password-gate-subtitle {
+  font-size: 12px;
+  color: var(--grey-400);
+  margin-top: 2px;
+  margin-bottom: 24px;
+}
+
+.password-gate-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--grey-200);
+  border-radius: var(--radius);
+  font-family: inherit;
+  font-size: 14px;
+  outline: none;
+  text-align: center;
+}
+
+.password-gate-input:focus { border-color: var(--blue); box-shadow: 0 0 0 2px rgba(0,66,233,0.1); }
+
+.password-gate-error {
+  color: var(--red);
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.password-gate-submit {
+  width: 100%;
+  margin-top: 16px;
+  padding: 11px;
+  background: var(--blue);
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.password-gate-submit:hover:not(:disabled) { background: var(--blue-dark); }
+.password-gate-submit:disabled { background: var(--grey-200); cursor: not-allowed; }

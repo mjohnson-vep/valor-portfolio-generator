@@ -16,3 +16,5 @@ pptx_check_scratch/
 test_output.pptx
 head_companies_scratch.json
 mismatches_scratch.json
+seed_i_companies_clean.json
+seed_i_companies_raw.json

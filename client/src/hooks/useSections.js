@@ -13,13 +13,25 @@ export function useSections() {
   const [deckSettings, setDeckSettings] = useState({ title: 'Portfolio Overview', date: '', footer: '' });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [authRequired, setAuthRequired] = useState(false);
+  const [loadToken, setLoadToken] = useState(0);
+
+  // Any request can come back as an auth failure (wrong/missing password, or
+  // the password changed on the backend mid-session) — funnel all of those
+  // into the same gate instead of showing a raw error message.
+  const handleError = useCallback((err) => {
+    if (err.isAuthError) setAuthRequired(true);
+    else setError(err.message);
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
+    setLoading(true);
     api
       .getData()
       .then((data) => {
         if (cancelled) return;
+        setAuthRequired(false);
         setSections(data.sections);
         setDeckSettings({
           title: data.deckSettings.title || 'Portfolio Overview',
@@ -27,21 +39,27 @@ export function useSections() {
           footer: data.deckSettings.footer || 'Confidential. Not For Further Distribution.',
         });
       })
-      .catch((err) => !cancelled && setError(err.message))
+      .catch((err) => !cancelled && handleError(err))
       .finally(() => !cancelled && setLoading(false));
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [loadToken, handleError]);
+
+  // Called once the password gate confirms a working password, to load real data.
+  const retryLoad = useCallback(() => setLoadToken((t) => t + 1), []);
 
   const replaceSection = useCallback((sectionId, updater) => {
     setSections((prev) => prev.map((s) => (s.id === sectionId ? updater(s) : s)));
   }, []);
 
-  const updateDeckSetting = useCallback((field, value) => {
-    setDeckSettings((prev) => ({ ...prev, [field]: value }));
-    api.updateDeckSettings({ [field]: value }).catch((err) => setError(err.message));
-  }, []);
+  const updateDeckSetting = useCallback(
+    (field, value) => {
+      setDeckSettings((prev) => ({ ...prev, [field]: value }));
+      api.updateDeckSettings({ [field]: value }).catch(handleError);
+    },
+    [handleError]
+  );
 
   const addCompany = useCallback(
     async (sectionId) => {
@@ -61,10 +79,10 @@ export function useSections() {
       try {
         await api.updateCompany(sectionId, companyId, fields);
       } catch (err) {
-        setError(err.message);
+        handleError(err);
       }
     },
-    [replaceSection]
+    [replaceSection, handleError]
   );
 
   const removeCompany = useCallback(
@@ -73,10 +91,10 @@ export function useSections() {
       try {
         await api.removeCompany(sectionId, companyId);
       } catch (err) {
-        setError(err.message);
+        handleError(err);
       }
     },
-    [replaceSection]
+    [replaceSection, handleError]
   );
 
   const duplicateCompany = useCallback(
@@ -101,10 +119,10 @@ export function useSections() {
       try {
         await api.reorderSection(sectionId, orderedIds);
       } catch (err) {
-        setError(err.message);
+        handleError(err);
       }
     },
-    [replaceSection]
+    [replaceSection, handleError]
   );
 
   const toggleAllInSection = useCallback(
@@ -113,10 +131,10 @@ export function useSections() {
       try {
         await api.toggleAllInSection(sectionId, included);
       } catch (err) {
-        setError(err.message);
+        handleError(err);
       }
     },
-    [replaceSection]
+    [replaceSection, handleError]
   );
 
   const sortSection = useCallback(
@@ -141,7 +159,8 @@ export function useSections() {
     deckSettings,
     loading,
     error,
-    setError,
+    authRequired,
+    retryLoad,
     updateDeckSetting,
     addCompany,
     updateCompany,

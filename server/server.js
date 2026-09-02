@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const apiRoutes = require('./src/routes');
+const { requireBasicAuth } = require('./src/requireBasicAuth');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -14,7 +15,7 @@ const corsOrigin = process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',').
 app.use(cors({ origin: corsOrigin, exposedHeaders: ['Content-Disposition'] }));
 app.use(express.json({ limit: '2mb' }));
 
-app.use('/api', apiRoutes);
+app.use('/api', requireBasicAuth, apiRoutes);
 
 app.get('/health', (req, res) => res.json({ ok: true }));
 
