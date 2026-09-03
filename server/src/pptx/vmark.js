@@ -37,12 +37,15 @@ function buildVMarkShapeXml({ id, xEmu, yEmu, cxEmu, cyEmu, color }) {
   );
 }
 
-// Mirrors v1's addVMark(): a large single-color V anchored bottom-right of the slide.
+// A large single-color V, fully visible on the right side of the slide. v1's
+// original formula (ported as-is here initially) positioned the shape mostly
+// off-canvas — PowerPoint only ever rendered a thin diagonal sliver of it,
+// never the recognizable V. This keeps the whole mark on-slide instead.
 async function addVMarkToSlide(zip, slideFileName, { slideWidthIn, slideHeightIn, heightIn, color, shapeId }) {
-  const vHeightIn = heightIn;
+  const vHeightIn = Math.min(heightIn, slideHeightIn * 0.95);
   const vWidthIn = vHeightIn * (V_PATH_W / V_PATH_H);
-  const xIn = slideWidthIn - vWidthIn * 0.52;
-  const yIn = slideHeightIn - vHeightIn * 0.72;
+  const xIn = slideWidthIn - vWidthIn - 0.2;
+  const yIn = (slideHeightIn - vHeightIn) / 2;
 
   const shapeXml = buildVMarkShapeXml({
     id: shapeId,
