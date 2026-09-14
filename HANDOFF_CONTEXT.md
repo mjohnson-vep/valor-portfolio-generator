@@ -88,11 +88,14 @@ Key files:
       "companies": [
         {
           "id": string,          // unique within its section, e.g. "growth-valor-vsv-001-aalo"
-          "name": string,        // ALL CAPS by convention
+          "name": string,        // ALL CAPS by convention — never append `*`
           "url": string,         // bare domain, no protocol, e.g. "aalo.com"
           "desc": string,        // one-liner — see house style below
           "included": boolean,   // controls whether it appears in the generated deck
-          "order": integer
+          "order": integer,
+          "valorId": string,     // optional — vOS company id, for future reconciliation
+          "otherFunds": string[] // optional — other section labels this same company
+                                 // also appears in (excluding the current section)
         }
       ]
     }
@@ -102,9 +105,12 @@ Key files:
 
 Sections and companies are both fully dynamic — the frontend (tabs, stats bar) and the PPT
 generator both just iterate whatever's in `sections`, so adding/renaming/restructuring
-sections is a **data change, not a code change**, with one exception: there is currently no
-concept of a company belonging to more than one section, or being flagged as "also appears
-elsewhere" — that's the pending task (Section 8) and *does* need a code change.
+sections (including the 7-tab split in Section 8) is a **data change, not a code change**.
+Companies are independent per section (duplicate rows, not linked shared records). A
+multi-fund company gets its own row in each relevant section; each row may carry
+`otherFunds` (the *other* section labels) so the UI and PPT can render a footnote without
+re-deriving membership at render time. Frontend and PPT must tolerate companies that omit
+`valorId` / `otherFunds`.
 
 **A company only appears in the generated deck if:** `name` is non-empty, `included !== false`,
 and `desc` is non-empty. (Empty description → excluded from the deck and shown with an amber
@@ -197,19 +203,26 @@ those included in decks adhoc, not auto-synced (see Section 7).
    DustPhotonics, Good Karma Foods — all added unchecked/exited; and xAI, added as
    "SPACEXAI" per Mahal's naming update, checked).
 6. **2026-09-14** — Fixed the V-mark rendering bug (Section 6).
-7. **2026-09-14** — Mahal requested a significant restructuring (Section 8, below) — **not
-   yet started**, blocked on vOS connector access at hand-off time.
+7. **2026-09-14** — Mahal requested a significant restructuring (Section 8). Schema +
+   multi-fund `*` display shipped in code; the vOS data refresh / 7-section rewrite of
+   live `companies.json` is a separate parent-data push (do not rewrite production JSON
+   in the display PR).
 
-## 8. Pending task — full spec (not yet implemented)
+## 8. Section restructure — spec
 
-Requested 2026-09-14. This is the next thing to build. Two structural decisions were already
-confirmed with Mahal — don't re-litigate them:
+Requested 2026-09-14. Structural decisions confirmed with Mahal — don't re-litigate them:
 
 - **7 section tabs**, not 4 with sub-groupings: `Growth – Platform`, `Growth – Ancillary`,
   `VSV – Core`, `VSV – Placeholder`, `VAAI – Core`, `VAAI – Placeholder`, `Seed`.
+  Labels are data-driven (`section.label` / `section.pptLabel`); no hardcoded tab list.
 - **Companies are independent per section** — no linked/shared records. A company that
   belongs to multiple funds gets its own separate row (own id, own editable copy of
   name/url/desc/included) in each relevant section. Editing one copy does not affect another.
+- **`*` placement (decided):** do **not** put `*` on the company name. Under the
+  definition/description, in smaller text, list the other funds with `*` next to those
+  funds, e.g. `* VSV – Core` or `* Growth – Platform · VAAI – Core`. PPT section slides
+  get a footer legend: `* Additional Valor fund(s) invested`. CompanyCard uses the same
+  pattern (name clean; smaller text under desc). No “Also in:” wording.
 
 ### 8.1 Data refresh from vOS
 
@@ -233,10 +246,10 @@ Pull fresh from vOS Portfolio CRM (`process_id: "portfolio"`, see field IDs in S
   description for companies genuinely new to the app. (Mahal was told this is the plan; he
   didn't object, but wasn't asked to confirm explicitly — worth a quick double-check before
   doing a full re-derivation that would undo the September cleanup work.)
-- Match "already exists in the app" by vOS `valor_id` if you store it (recommended — add an
-  optional `valorId` field to the company schema now, populated from vOS's
-  `field_values[COMPANY_FIELD_ID].company.valor_id` on every future pull, so future
-  reconciliation doesn't have to rely on fuzzy name/domain matching at all). Fall back to
+- Match "already exists in the app" by vOS `valor_id` via the optional `valorId` field
+  (now on the company schema; create/patch persist it). Populate it from vOS's
+  `field_values[COMPANY_FIELD_ID].company.valor_id` on every future pull so future
+  reconciliation doesn't have to rely on fuzzy name/domain matching. Fall back to
   name+domain matching only for companies added manually that have no `valorId`.
 
 ### 8.2 Multi-fund duplicate handling
@@ -245,22 +258,19 @@ Pull fresh from vOS Portfolio CRM (`process_id: "portfolio"`, see field IDs in S
   buckets.
 - Create one row per relevant section (not just one canonical row) — same name/url/desc,
   `included: true`, independent ids.
-- Each such row's `name` should be flagged so it can render with a `*` — recommend adding a
-  field like `"otherFunds": ["VSV – Core"]` (array of the *other* section labels this same
-  company also appears in, i.e. excluding whichever section this particular row lives in) so
-  the frontend and PPT generator can both render `COMPANY NAME *` plus a small note/tooltip
-  or footnote without re-deriving it from a name search at render time.
-- **Both the app's company list UI and the generated PPT card** need to show the `*` and the
-  other-fund note. Check `client/src/components/CompanyCard.jsx` (list row) and
-  `server/src/pptx/generate.js`'s `addCard()` function (PPT card) — both currently render
-  `company.name` directly with no annotation logic at all, so this is new code in both places,
-  not a tweak to existing logic.
-- Open design question not yet resolved with Mahal: exact footnote wording/placement on the
-  PPT card (e.g. small italic line under the description, or inline after the name) — the
-  card is already fairly tight on vertical space (`CARD_H = 1.18` inches, see
-  `server/src/pptx/generate.js`), so a full second line of text per card may not fit
-  cleanly at 16 cards/slide. Worth a quick mockup or explicit confirmation before committing
-  to a specific placement.
+- Each such row carries `"otherFunds": ["VSV – Core"]` (array of the *other* section
+  labels this same company also appears in, i.e. excluding whichever section this
+  particular row lives in) so the frontend and PPT generator can both render the
+  footnote without re-deriving it from a name search at render time.
+- **`*` placement is decided (do not put it on the name):** under the description, smaller
+  text, `*` next to the other fund labels (`* VSV – Core` or
+  `* Growth – Platform · VAAI – Core`). Implemented in `client/src/components/CompanyCard.jsx`
+  (list row) and `server/src/pptx/generate.js`'s `addCard()` (PPT card). Shared formatter:
+  `shared/otherFunds.js`. CARD_H remains 1.18 — the fund line uses 8pt so it fits.
+- PPT section slides that contain at least one multi-fund card also show the footer
+  legend `* Additional Valor fund(s) invested`.
+- Live `companies.json` / Railway data is **not** rewritten by the display PR — parent
+  pushes the 7-section dataset (with `valorId` / `otherFunds` populated) separately.
 
 ## 9. vOS field reference (Portfolio CRM tracker)
 

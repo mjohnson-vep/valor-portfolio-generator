@@ -17,6 +17,14 @@ All edits (add/remove/reorder companies, checkbox toggles, description edits,
 deck settings) are written straight to `server/data/companies.json` on the
 backend, so every teammate hitting the same backend URL sees the same data.
 
+Optional per-company fields (safe to omit on older rows):
+
+- `valorId` — vOS company id, used for future reconciliation
+- `otherFunds` — other section labels this company also appears in (excluding
+  the current section). Rendered as smaller text under the description with a
+  leading `*` next to those funds (never on the company name). PPT section
+  slides add a footer legend: `* Additional Valor fund(s) invested`.
+
 ## Local Development
 
 Requires [Node.js](https://nodejs.org) 18+ and npm. From the project root:

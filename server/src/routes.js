@@ -2,6 +2,22 @@ const express = require('express');
 const { v4: uuidv4 } = require('uuid');
 const { getData, getSection, saveAndPersist } = require('./dataStore');
 const { buildPptx } = require('./pptx/generate');
+const { normalizeOtherFunds } = require('../../shared/otherFunds');
+
+function applyOptionalCompanyFields(company, body) {
+  if (!body || typeof body !== 'object') return company;
+  if (Object.prototype.hasOwnProperty.call(body, 'valorId')) {
+    const valorId = body.valorId;
+    if (valorId == null || valorId === '') delete company.valorId;
+    else company.valorId = String(valorId);
+  }
+  if (Object.prototype.hasOwnProperty.call(body, 'otherFunds')) {
+    const funds = normalizeOtherFunds(body.otherFunds);
+    if (!funds.length) delete company.otherFunds;
+    else company.otherFunds = funds;
+  }
+  return company;
+}
 
 const router = express.Router();
 
@@ -57,6 +73,7 @@ router.post('/sections/:sectionId/companies', async (req, res) => {
     included,
     order: section.companies.length,
   };
+  applyOptionalCompanyFields(company, req.body);
   section.companies.push(company);
   await saveAndPersist();
   res.status(201).json(company);
@@ -72,6 +89,7 @@ router.patch('/sections/:sectionId/companies/:companyId', async (req, res) => {
   if (url !== undefined) company.url = url;
   if (desc !== undefined) company.desc = desc;
   if (included !== undefined) company.included = included;
+  applyOptionalCompanyFields(company, req.body);
   await saveAndPersist();
   res.json(company);
 });
