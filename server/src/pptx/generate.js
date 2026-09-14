@@ -2,6 +2,7 @@ const PptxGenJS = require('pptxgenjs');
 const JSZip = require('jszip');
 const { embedFonts } = require('./fonts');
 const { addVMarkToSlide } = require('./vmark');
+const { formatOtherFundsLine, hasOtherFunds, MULTI_FUND_LEGEND } = require('../../../shared/otherFunds');
 
 const SW = 13.333;
 const SH = 7.5;
@@ -34,7 +35,7 @@ function addHeader(slide, label, page, total) {
   }
 }
 
-function addFooter(slide, pageNum) {
+function addFooter(slide, pageNum, { showMultiFundLegend = false } = {}) {
   slide.addShape('line', { x: MARGIN, y: FOOTER_Y - 0.03, w: SW - 2 * MARGIN, h: 0, line: { color: GREY_LIGHT, width: 0.75 } });
   slide.addText(
     [
@@ -43,6 +44,20 @@ function addFooter(slide, pageNum) {
     ],
     { x: MARGIN, y: FOOTER_Y + 0.06, w: 4, h: 0.22, fontSize: 9, fontFace: 'Europa', valign: 'middle', margin: 0, charSpacing: 1.5 }
   );
+  if (showMultiFundLegend) {
+    // Footer legend in the leftover space between the wordmark and page number.
+    slide.addText(MULTI_FUND_LEGEND, {
+      x: 4.35,
+      y: FOOTER_Y + 0.06,
+      w: 8.0,
+      h: 0.22,
+      fontSize: 8,
+      color: GREY_TEXT,
+      fontFace: 'Europa',
+      valign: 'middle',
+      margin: 0,
+    });
+  }
   if (pageNum) {
     slide.addText(String(pageNum), { x: SW - 0.6, y: FOOTER_Y + 0.04, w: 0.4, h: 0.28, fontSize: 9, color: BLUE_DARK, fontFace: 'Europa', align: 'right', valign: 'middle', margin: 0 });
   }
@@ -51,13 +66,26 @@ function addFooter(slide, pageNum) {
 function addCard(slide, company, col, row) {
   const x = cX(col);
   const y = cY(row);
+  const fundsLine = formatOtherFundsLine(company.otherFunds);
   slide.addShape('rect', { x, y, w: CARD_W, h: CARD_H, fill: { color: WHITE }, line: { color: GREY_LIGHT, width: 0.75 } });
   slide.addShape('rect', { x, y, w: CARD_W, h: 0.055, fill: { color: BLUE }, line: { color: BLUE } });
+  // Name stays clean — never append `*`. Multi-fund mark lives on the fund line under the def.
   slide.addText(company.name || '', { x: x + 0.1, y: y + 0.07, w: CARD_W - 0.2, h: 0.3, fontSize: 12, bold: true, color: BLUE_DARK, fontFace: 'Europa', valign: 'top', margin: 0 });
   const urlHref = (company.url || '').match(/^https?:\/\//) ? company.url || '' : 'https://' + (company.url || '');
   slide.addText(company.url || '', { x: x + 0.1, y: y + 0.37, w: CARD_W - 0.2, h: 0.17, fontSize: 10, color: BLUE, fontFace: 'Europa', italic: true, valign: 'top', margin: 0, hyperlink: { url: urlHref } });
   slide.addShape('line', { x: x + 0.1, y: y + 0.55, w: CARD_W - 0.2, h: 0, line: { color: GREY_LIGHT, width: 0.5 } });
-  slide.addText(company.desc || '', { x: x + 0.1, y: y + 0.59, w: CARD_W - 0.2, h: CARD_H - 0.69, fontSize: 10, color: GREY_TEXT, fontFace: 'Europa', valign: 'top', margin: 0, wrap: true });
+  // CARD_H=1.18 is tight; when otherFunds is present, shrink the description box
+  // and use a smaller fund-line font so the footnote still fits.
+  if (fundsLine) {
+    const fundH = 0.16;
+    const padBottom = 0.04;
+    const descTop = 0.59;
+    const descH = CARD_H - descTop - fundH - padBottom;
+    slide.addText(company.desc || '', { x: x + 0.1, y: y + descTop, w: CARD_W - 0.2, h: descH, fontSize: 9, color: GREY_TEXT, fontFace: 'Europa', valign: 'top', margin: 0, wrap: true });
+    slide.addText(fundsLine, { x: x + 0.1, y: y + CARD_H - fundH - padBottom, w: CARD_W - 0.2, h: fundH, fontSize: 8, color: GREY_TEXT, fontFace: 'Europa', valign: 'top', margin: 0, wrap: true });
+  } else {
+    slide.addText(company.desc || '', { x: x + 0.1, y: y + 0.59, w: CARD_W - 0.2, h: CARD_H - 0.69, fontSize: 10, color: GREY_TEXT, fontFace: 'Europa', valign: 'top', margin: 0, wrap: true });
+  }
 }
 
 // A company only makes it into the deck once it has a name, is checked "included",
@@ -103,8 +131,9 @@ async function buildPptx(sections, deckSettings) {
       const slide = pres.addSlide();
       slide.background = { color: WHITE };
       addHeader(slide, section.pptLabel, p + 1, totalPages);
-      addFooter(slide, pageNum++);
-      companies.slice(p * CARDS_PER, (p + 1) * CARDS_PER).forEach((co, idx) => {
+      const pageCompanies = companies.slice(p * CARDS_PER, (p + 1) * CARDS_PER);
+      addFooter(slide, pageNum++, { showMultiFundLegend: pageCompanies.some((co) => hasOtherFunds(co.otherFunds)) });
+      pageCompanies.forEach((co, idx) => {
         addCard(slide, co, idx % COLS, Math.floor(idx / COLS));
       });
     }
@@ -126,4 +155,4 @@ async function buildPptx(sections, deckSettings) {
   return zip.generateAsync({ type: 'nodebuffer', compression: 'DEFLATE' });
 }
 
-module.exports = { buildPptx, CARDS_PER };
+module.exports = { buildPptx, CARDS_PER, MULTI_FUND_LEGEND };

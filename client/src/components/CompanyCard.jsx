@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { formatOtherFundsLine } from '../otherFunds';
 import { DragHandleIcon, DuplicateIcon, TrashIcon } from './Icons';
 
 export default function CompanyCard({
@@ -39,6 +40,7 @@ export default function CompanyCard({
 
   const excluded = company.included === false;
   const needsDesc = !company.desc || !company.desc.trim();
+  const otherFundsLine = formatOtherFundsLine(company.otherFunds);
 
   return (
     <div
@@ -71,15 +73,22 @@ export default function CompanyCard({
         onChange={(e) => setDraft((d) => ({ ...d, url: e.target.value }))}
         onBlur={() => commit('url')}
       />
-      <input
-        className="card-input desc"
-        value={draft.desc}
-        placeholder={needsDesc ? '⚠ Add description...' : 'One-line description...'}
-        title="Description"
-        style={needsDesc ? { borderColor: '#F59E0B' } : undefined}
-        onChange={(e) => setDraft((d) => ({ ...d, desc: e.target.value }))}
-        onBlur={() => commit('desc')}
-      />
+      <div className="card-desc-block">
+        <input
+          className="card-input desc"
+          value={draft.desc}
+          placeholder={needsDesc ? '⚠ Add description...' : 'One-line description...'}
+          title="Description"
+          style={needsDesc ? { borderColor: '#F59E0B' } : undefined}
+          onChange={(e) => setDraft((d) => ({ ...d, desc: e.target.value }))}
+          onBlur={() => commit('desc')}
+        />
+        {otherFundsLine ? (
+          <div className="card-other-funds" title={otherFundsLine}>
+            {otherFundsLine}
+          </div>
+        ) : null}
+      </div>
       <div className="card-actions">
         <button className="btn btn-ghost" onClick={onDuplicate} title="Duplicate">
           <DuplicateIcon />
