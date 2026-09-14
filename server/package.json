@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "test": "node --test ../shared/otherFunds.test.js src/pptx/generate.test.js"
+    "test": "node --test ../shared/otherFunds.test.js src/pptx/generate.test.js src/routes.data.test.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

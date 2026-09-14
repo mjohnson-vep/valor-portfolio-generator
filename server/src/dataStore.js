@@ -24,6 +24,7 @@ function load() {
 // Serializes writes so concurrent edits from multiple team members never race each other onto disk.
 function persist() {
   writeQueue = writeQueue.then(() => new Promise((resolve, reject) => {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
     const tmpFile = DATA_FILE + '.tmp';
     fs.writeFile(tmpFile, JSON.stringify(cache, null, 2), 'utf8', (err) => {
       if (err) return reject(err);
@@ -49,4 +50,11 @@ function saveAndPersist() {
   return persist();
 }
 
-module.exports = { getData, getSection, saveAndPersist, DATA_FILE };
+// Full-store replace for PUT /api/data (7-tab cutover). Swaps the in-memory
+// cache, then uses the same persist path as every other write.
+function replaceData(next) {
+  cache = next;
+  return persist();
+}
+
+module.exports = { getData, getSection, saveAndPersist, replaceData, DATA_FILE };

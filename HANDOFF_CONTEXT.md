@@ -269,8 +269,8 @@ Pull fresh from vOS Portfolio CRM (`process_id: "portfolio"`, see field IDs in S
   `shared/otherFunds.js`. CARD_H remains 1.18 — the fund line uses 8pt so it fits.
 - PPT section slides that contain at least one multi-fund card also show the footer
   legend `* Additional Valor fund(s) invested`.
-- Live `companies.json` / Railway data is **not** rewritten by the display PR — parent
-  pushes the 7-section dataset (with `valorId` / `otherFunds` populated) separately.
+- Live `companies.json` / Railway data is **not** rewritten in git — parent pushes the
+  7-section dataset (with `valorId` / `otherFunds` populated) via `PUT /api/data`.
 
 ## 9. vOS field reference (Portfolio CRM tracker)
 
@@ -328,6 +328,10 @@ multi-fund case Section 8.2 needs to detect).
 
 1. `GET /health` on the Railway URL → `{"ok":true}` (no auth needed, confirms the service is up).
 2. `GET /api/data` with Basic Auth → confirm section list/counts look right.
+   Live 7-tab cutover uses `PUT /api/data` (same Basic Auth) with body
+   `{ deckSettings, sections }` to replace the store in one write — there is
+   no DELETE-section or bulk CRUD otherwise. Validate: `sections` is a
+   non-empty array; each section has `id`+`label`; `companies` is an array.
 3. Load the Netlify URL in a browser, confirm the password gate appears and unlocks correctly.
 4. `POST /api/generate-pptx` with Basic Auth and a JSON body of `{title, date, footer}` →
    save the returned bytes to a `.pptx` file and actually open it (or at minimum unzip it and

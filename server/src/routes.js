@@ -1,8 +1,51 @@
 const express = require('express');
 const { v4: uuidv4 } = require('uuid');
-const { getData, getSection, saveAndPersist } = require('./dataStore');
+const { getData, getSection, saveAndPersist, replaceData } = require('./dataStore');
 const { buildPptx } = require('./pptx/generate');
 const { normalizeOtherFunds } = require('../../shared/otherFunds');
+
+function validatePortfolioPayload(body) {
+  if (!body || typeof body !== 'object' || Array.isArray(body)) {
+    return { error: 'Body must be a JSON object with deckSettings and sections' };
+  }
+  if (!Array.isArray(body.sections) || body.sections.length === 0) {
+    return { error: 'sections must be a non-empty array' };
+  }
+  if (body.deckSettings != null && (typeof body.deckSettings !== 'object' || Array.isArray(body.deckSettings))) {
+    return { error: 'deckSettings must be an object' };
+  }
+
+  const sections = [];
+  for (let i = 0; i < body.sections.length; i++) {
+    const section = body.sections[i];
+    if (!section || typeof section !== 'object' || Array.isArray(section)) {
+      return { error: `sections[${i}] must be an object` };
+    }
+    const id = section.id == null ? '' : String(section.id).trim();
+    const label = section.label == null ? '' : String(section.label).trim();
+    if (!id || !label) {
+      return { error: `sections[${i}] requires id and label` };
+    }
+    if (!Array.isArray(section.companies)) {
+      return { error: `sections[${i}].companies must be an array` };
+    }
+    sections.push({
+      id,
+      label,
+      pptLabel: section.pptLabel ? String(section.pptLabel) : label.toUpperCase(),
+      companies: section.companies.map((company) => (company && typeof company === 'object' ? { ...company } : company)),
+    });
+  }
+
+  const src = body.deckSettings && typeof body.deckSettings === 'object' ? body.deckSettings : {};
+  const deckSettings = {
+    title: src.title ?? 'Portfolio Overview',
+    date: src.date ?? '',
+    footer: src.footer ?? 'Confidential. Not For Further Distribution.',
+  };
+
+  return { data: { deckSettings, sections } };
+}
 
 function applyOptionalCompanyFields(company, body) {
   if (!body || typeof body !== 'object') return company;
@@ -32,6 +75,15 @@ function sectionOr404(req, res) {
 
 // ─── FULL DATA ──────────────────────────────────────────────────────────────
 router.get('/data', (req, res) => {
+  res.json(getData());
+});
+
+// Bulk replace for live restructure (e.g. 7-tab cutover). Basic Auth already
+// wraps /api/*. Replaces the in-memory store, then persist()s like other writes.
+router.put('/data', async (req, res) => {
+  const result = validatePortfolioPayload(req.body);
+  if (result.error) return res.status(400).json({ error: result.error });
+  await replaceData(result.data);
   res.json(getData());
 });
 
