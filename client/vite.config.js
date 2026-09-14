@@ -1,20 +1,9 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import path from 'path';
-import { fileURLToPath } from 'url';
-
-const clientDir = path.dirname(fileURLToPath(import.meta.url));
-const repoRoot = path.resolve(clientDir, '..');
 
 export default defineConfig({
   plugins: [react()],
-  resolve: {
-    alias: {
-      '@shared': path.join(repoRoot, 'shared'),
-    },
-  },
   server: {
-    fs: { allow: [repoRoot] },
     port: 5173,
     proxy: {
       // Lets the app work with a same-origin fetch('/api/...') in local dev

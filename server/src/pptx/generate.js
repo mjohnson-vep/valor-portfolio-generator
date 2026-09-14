@@ -45,7 +45,7 @@ function addFooter(slide, pageNum, { showMultiFundLegend = false } = {}) {
     { x: MARGIN, y: FOOTER_Y + 0.06, w: 4, h: 0.22, fontSize: 9, fontFace: 'Europa', valign: 'middle', margin: 0, charSpacing: 1.5 }
   );
   if (showMultiFundLegend) {
-    // Centered in the leftover footer space between the wordmark and page number.
+    // Footer legend in the leftover space between the wordmark and page number.
     slide.addText(MULTI_FUND_LEGEND, {
       x: 4.35,
       y: FOOTER_Y + 0.06,
